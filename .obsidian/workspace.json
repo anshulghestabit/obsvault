@@ -27,8 +27,8 @@
             "state": {
               "type": "full-calendar-view",
               "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "full-calendar-view"
             }
           },
           {
@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/personal.md",
+                "file": "Hestabit/Week 1/DAY 1 — SYSTEM REVERSE ENGINEERING + NODE & TERMINAL MASTERING.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "personal"
+              "title": "DAY 1 — SYSTEM REVERSE ENGINEERING + NODE & TERMINAL MASTERING"
             }
           }
         ],
@@ -196,8 +196,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -234,10 +234,10 @@
   },
   "active": "c2b132d44ce27506",
   "lastOpenFiles": [
+    "personal/personal.md",
     "Pasted image 20260106160145.png",
     "Pasted image 20260106160100.png",
     "Hestabit/Week 1/DAY 1 — SYSTEM REVERSE ENGINEERING + NODE & TERMINAL MASTERING.md",
-    "personal/personal.md",
     "personal",
     "Hestabit/Week 1/Day 2— NODE CLI APP + CONCURRENCY + LARGE DATA PROCESSING**.md",
     "Hestabit/Week 1/Day 5 — AUTOMATION & MINI-CI PIPELINE.md",
