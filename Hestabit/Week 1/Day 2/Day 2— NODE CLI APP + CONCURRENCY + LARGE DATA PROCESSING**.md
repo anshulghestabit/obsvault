@@ -9,13 +9,12 @@
 
 ### Tasks
 
-1. **Generate a corpus text file** with **200,000+ words**  
+ 1. **Generate a corpus text file** with **200,000+ words**  
     _(random lorem or internet scrape)_
 2. **Build CLI command:**
-   
 `node wordstat.js --file corpus.txt --top 10 --minLen 5 --unique`
 
-1. **The CLI must output:**
+4. **The CLI must output:**
 - Total words
 - Unique words
 - Longest word
