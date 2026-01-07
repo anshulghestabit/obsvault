@@ -19,13 +19,9 @@
 ### 4. **STREAM vs BUFFER exercise (performance benchmark)**
 
 - Create a large test file (**50MB+**)
-    
 - Read file using both:
-    
     - `fs.readFile` (**Buffer**)
-        
     - `Stream` (`fs.createReadStream`)
-        
 - Capture **execution time + memory usage**
     
 
@@ -49,5 +45,10 @@ sudo apt install curl
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 sudo apt install libfuse2
 nvm --version
+
+
+![[Pasted image 20260106180913.png]]
+
+![[Pasted image 20260106180925.png]]
 
 
