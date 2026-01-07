@@ -41,3 +41,10 @@
 | `output/stats.json`      | Final computed results                     |
 | `logs/perf-summary.json` | Concurrency test with runtime              |
 | `commits`                | Minimum **8 commits** documenting progress |
+
+
+
+# my deliverables
+## task 1
+### installing pandoc for file parsing and viewing
+resource:- https://www.geekyhacker.com/how-to-open-formatted-markdown-files-in-linux-terminal/

@@ -38,7 +38,8 @@
 
 ---
 
-
+## MY PART 
+### GIT AND NVM SETUP
 sudo apt update 
 sudo apt upgrade
 sudo apt install curl 
@@ -46,7 +47,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 sudo apt install libfuse2
 nvm --version
 
+resource :- https://www.geeksforgeeks.org/linux-unix/how-to-install-nvm-on-ubuntu-22-04/
+https://www.geeksforgeeks.org/linux-unix/how-to-install-nvm-on-ubuntu-22-04/
 
+
+INSTROSPECT.JS
 ![[Pasted image 20260106180913.png]]
 
 ![[Pasted image 20260106180925.png]]
