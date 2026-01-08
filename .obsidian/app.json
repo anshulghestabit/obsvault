@@ -5,5 +5,8 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 10
-  }
+  },
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true
 }

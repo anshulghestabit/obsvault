@@ -11,12 +11,12 @@
     - NPM global installation path
     - All PATH entries that include `"node"` or `"npm"`
 2. **Install & use NVM (Node Version Manager):**
-    - Install NVM
+    - Install NVM v
     - Switch Node from **LTS → Latest** and back
 3. **Create script `introspect.js` that prints:**
 
 `OS: Architecture: CPU Cores: Total Memory: System Uptime: Current Logged User: Node Path:`
-### 4. **STREAM vs BUFFER exercise (performance benchmark)**
+4. **STREAM vs BUFFER exercise (performance benchmark)**
 
 - Create a large test file (**50MB+**)
 - Read file using both:
