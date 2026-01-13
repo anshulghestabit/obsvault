@@ -50,3 +50,9 @@ Example:
 | `screenshots`          | For POSTMAN requests                      |
 
 ---
+
+
+curl -v -H "If-None-Match: 099-wgrTeGIpcU5lRWgPLkOvL75R1t8" "https://dummyjson.com/products?limit=5&skip=10" >> curl-lab.txt 2>&1
+
+
+![[Pasted image 20260113171444.png]]![[Pasted image 20260113171450.png

@@ -29,3 +29,13 @@
 | Husky hook screenshot         | Must show failed commit      |
 | `artifacts/build-*.tgz`       | Evidence of packaging        |
 | `WEEK1-RETRO.md`              | Lessons learned & what broke |
+
+---
+
+![[Pasted image 20260113181344.png]]
+
+
+Husky Screenshot
+
+
+

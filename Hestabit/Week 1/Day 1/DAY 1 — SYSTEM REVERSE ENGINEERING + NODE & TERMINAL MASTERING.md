@@ -56,4 +56,8 @@ INSTROSPECT.JS
 
 ![[Pasted image 20260106180925.png]]
 
+![[Pasted image 20260109122838.png]]
 
+
+![[Pasted image 20260109124402.png]]![[Pasted image 20260109124412.png]]
+![[Pasted image 20260109124422.png]]

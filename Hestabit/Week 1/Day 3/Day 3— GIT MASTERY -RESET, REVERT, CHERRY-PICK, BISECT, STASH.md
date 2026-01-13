@@ -21,3 +21,6 @@
 | `stash-session.txt`   | How stash fixed workflow              |
 | `MERGE-POSTMORTEM.md` | Explanation + screenshot + resolution |
 | `commits`             | Graph must show branches + merge      |
+
+
+![[Pasted image 20260109143741.png]]![[Pasted image 20260109143754.png]]
