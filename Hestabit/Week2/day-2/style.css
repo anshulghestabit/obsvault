@@ -1,0 +1,113 @@
+*{ box-sizing: border-box; }
+
+body {
+margin: 0;
+padding: 20px;
+font-family: sans-serif;
+background: #1111;
+gap:10px;
+}
+
+header {
+display:flex;
+color: white;
+gap: 10px;
+align-items: stretch;
+}
+header[aria-label="Top bar"] {
+    display: flex;
+    gap: 10px; 
+    height: 80px;
+    align-items: stretch; 
+    padding: 0;           
+    background: transparent;
+}
+
+
+header[aria-label="Top bar"] nav {
+flex: 3;
+background: #ef4444;
+color: white;
+padding: 10px;
+display: flex;
+justify-content: center;
+}
+
+nav {
+background: #ef4444;
+color: white;
+padding: 10px;
+}
+
+header, nav {
+align-items: center;
+justify-content: center;
+height: 80px;
+}
+
+section[aria-label="Hero"] {
+background: #4f83c2;
+color: white;
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin:10px 0 10px 0 ;
+}
+
+section[aria-label="Content Area"] {
+display: flex;
+gap: 25%;
+}
+
+main {
+background: #1f2a44;
+color: white;
+flex: 2;
+height: 190px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+section[aria-label="Side Content"] {
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+section[aria-label="Image"] {
+background: #cceeee;
+height: 90px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+section[aria-label="Extra"] {
+background: #34d399;
+height: 90px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+section[aria-label="Banner"] {
+background: #facc15;
+margin-top: 10px;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+header[aria-label="Top bar"] > h1 {
+    flex: 1;            
+    background: #0f172a;  
+    color: white;
+    margin: 0;            
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+}
