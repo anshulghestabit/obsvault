@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hestabit/Week2/day-4/day-4.md",
+                "file": "LEARNING  NOTES/Week 1/lua.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-4"
+              "title": "lua"
             }
           }
         ]
@@ -209,10 +209,13 @@
   },
   "active": "f3e2e2310a6a19c7",
   "lastOpenFiles": [
-    "Hestabit/Week3/day-1/day-1.md",
-    "Hestabit/Week2/day-5/day-5.md",
-    "Hestabit/Week2/day-4/day-4.md",
+    "LEARNING  NOTES/Week 1/linux.md",
     "Hestabit/Week2/day-3/day-3.md",
+    "Hestabit/Week3/day-1/day-1.md",
+    "Hestabit/Week3/day-1/Pasted image 20260116131234.png",
+    "Hestabit/Welcome.md",
+    "Hestabit/Week2/day-4/day-4.md",
+    "Hestabit/Week2/day-5/day-5.md",
     "Hestabit/Week2/day-2/day-2.md",
     "Hestabit/Week2/day-3/script.js",
     "Hestabit/Week2/day-3/style.css",
@@ -240,7 +243,6 @@
     "Hestabit/Week1/Day 1/Pasted image 20260109124402.png",
     "Hestabit/Week1/Day 1/Pasted image 20260109122838.png",
     "Hestabit/Week1/Day 1/DAY 1 — SYSTEM REVERSE ENGINEERING + NODE & TERMINAL MASTERING.md",
-    "Hestabit/Week1/Day 2/Pasted image 20260109142330.png",
     "Hestabit/Week1/Day 2/Day 2— NODE CLI APP + CONCURRENCY + LARGE DATA PROCESSING**.md",
     "Hestabit/Week8/day-5/day-5.md",
     "Hestabit/Week8/day-4/day-4.md",
@@ -253,8 +255,6 @@
     "Hestabit/Week7/day-1/day-1.md",
     "Hestabit/Week6/day-5/day-5.md",
     "Hestabit/Week6/day-3/day-3.md",
-    "Hestabit/Week6/day-4/day-4.md",
-    "Hestabit/Week6/day-2/day-2.md",
     "Untitled.canvas",
     "Hestabit/Untitled.canvas"
   ]

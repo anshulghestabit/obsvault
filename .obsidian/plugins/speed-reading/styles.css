@@ -1,0 +1,187 @@
+/* Obsidian Speed Reading Plugin styles */
+
+/* Modal container: clean, no card/box-shadow, centered, not fullscreen */
+.speed-read-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 120px;
+  max-height: 90vh;
+  height: auto;
+  padding: 0;
+  background: var(--background-primary, #222);
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* RSVP display area */
+.rsvp-display {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', monospace;
+  font-size: clamp(2em, 6vw, 2.8em);
+  font-weight: 600;
+  text-align: center;
+  color: var(--text-normal, #fff);
+  width: 20ch; /* Ensures pivot char is always centered */
+  min-width: 20ch;
+  max-width: 100%;
+  margin: 0 auto;
+  letter-spacing: 0;
+}
+
+/* Pivot character (main char) */
+.rsvp-pivot-char {
+  color: #ff2d55;
+  font-weight: 900;
+  /* Removed blur for clarity */
+  /* text-shadow: 0 0 2px #ff2d55, 0 0 6px #fff; */
+  z-index: 2;
+  border-bottom: 2px solid #ff2d55;
+}
+
+/* Other letters in the word */
+.rsvp-focus-word {
+  color: var(--text-normal, #fff);
+  font-weight: 700;
+  z-index: 1;
+}
+
+/* Invisible padding for alignment */
+.rsvp-invisible-word {
+  color: transparent !important;
+  opacity: 0 !important;
+  user-select: none;
+  pointer-events: none;
+  min-width: 1ch;
+  max-width: 1ch;
+  width: 1ch;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/* Progress bar */
+.rsvp-progress-bar {
+  width: 100%;
+  max-width: 100%;
+  margin: 0.5em 0 0.5em 0;
+  background: #444;
+  border-radius: 4px;
+  height: 8px;
+  min-height: 8px;
+  max-height: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.rsvp-progress-bar > div {
+  height: 100%;
+  background: var(--interactive-accent, #4f8cff);
+  border-radius: 4px;
+  transition: width 0.2s;
+}
+
+/* Controls container */
+.rsvp-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  gap: 1.5em;
+  margin: 0.5em 0 0 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Buttons */
+.rsvp-controls button {
+  background: var(--interactive-accent, #4f8cff);
+  color: var(--text-on-accent, #fff);
+  border: none;
+  border-radius: 6px;
+  padding: 0.5em 1.2em;
+  font-size: 1.2em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.rsvp-controls button:hover {
+  background: var(--interactive-accent-hover, #3572cc);
+}
+
+/* WPM input */
+.rsvp-controls input[type="number"] {
+  width: 80px;
+  padding: 0.3em 0.5em;
+  border: 1px solid var(--background-modifier-border, #444);
+  border-radius: 4px;
+  font-size: 1.2em;
+  background: var(--background-secondary, #181818);
+  color: var(--text-normal, #fff);
+  box-sizing: border-box;
+}
+
+/* Responsive for smaller modals */
+@media (max-width: 700px) {
+  .speed-read-modal {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    min-height: 80px;
+    max-height: 98vh;
+    height: auto;
+    padding: 0;
+  }
+  .rsvp-display {
+    font-size: clamp(1.2em, 10vw, 2em);
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+  .rsvp-progress-bar {
+    width: 100%;
+    margin: 0.5em 0 0.5em 0;
+  }
+  .rsvp-controls {
+    gap: 1em;
+    margin: 0.5em 0 0 0;
+  }
+@media (max-width: 480px) {
+  .speed-read-modal {
+    min-height: 60px;
+    padding: 0.5em 0.2em;
+  }
+  .rsvp-display {
+    font-size: clamp(1em, 12vw, 1.5em);
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .rsvp-controls {
+    flex-direction: column;
+    gap: 0.7em;
+    width: 100%;
+    align-items: stretch;
+  }
+  .rsvp-controls button,
+  .rsvp-controls input[type="number"] {
+    font-size: 1.3em;
+    padding: 1em;
+    min-width: 48px;
+    min-height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+}
