@@ -1,0 +1,293 @@
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	dummyjson.com
+Address: 104.21.61.23
+Name:	dummyjson.com
+Address: 172.67.205.42
+Name:	dummyjson.com
+Address: 2606:4700:3033::6815:3d17
+Name:	dummyjson.com
+Address: 2606:4700:3031::ac43:cd2a
+
+traceroute to dummyjson.com (172.67.205.42), 30 hops max, 60 byte packets
+ 1  _gateway (10.10.0.1)  17.491 ms  17.450 ms  17.431 ms
+ 2  14.96.247.185 (14.96.247.185)  252.006 ms  251.986 ms  251.969 ms
+ 3  * * *
+ 4  203.132.144.109 (203.132.144.109)  23.243 ms  23.229 ms  23.216 ms
+ 5  182.79.146.236 (182.79.146.236)  251.771 ms 116.119.61.209 (116.119.61.209)  251.754 ms  251.744 ms
+ 6  162.158.20.18 (162.158.20.18)  251.734 ms  236.468 ms  236.436 ms
+ 7  162.158.20.42 (162.158.20.42)  236.419 ms 162.158.20.55 (162.158.20.55)  289.014 ms 162.158.20.48 (162.158.20.48)  288.917 ms
+ 8  172.67.205.42 (172.67.205.42)  288.946 ms  288.867 ms  288.895 ms
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host dummyjson.com:443 was resolved.
+* IPv6: 2606:4700:3031::ac43:cd2a, 2606:4700:3033::6815:3d17
+* IPv4: 104.21.61.23, 172.67.205.42
+*   Trying 104.21.61.23:443...
+*   Trying [2606:4700:3031::ac43:cd2a]:443...
+* Immediate connect fail for 2606:4700:3031::ac43:cd2a: Network is unreachable
+*   Trying [2606:4700:3033::6815:3d17]:443...
+* Immediate connect fail for 2606:4700:3033::6815:3d17: Network is unreachable
+* Connected to dummyjson.com (104.21.61.23) port 443
+* ALPN: curl offers h2,http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [19 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [2533 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [79 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519 / id-ecPublicKey
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=dummyjson.com
+*  start date: Dec 14 16:36:12 2025 GMT
+*  expire date: Mar 14 17:33:27 2026 GMT
+*  subjectAltName: host "dummyjson.com" matched cert's "dummyjson.com"
+*  issuer: C=US; O=Google Trust Services; CN=WE1
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA256
+*   Certificate level 1: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA384
+*   Certificate level 2: Public key type EC/secp384r1 (384/192 Bits/secBits), signed using ecdsa-with-SHA384
+} [5 bytes data]
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://dummyjson.com/products?limit=5&skip=10
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: dummyjson.com]
+* [HTTP/2] [1] [:path: /products?limit=5&skip=10]
+* [HTTP/2] [1] [user-agent: curl/8.5.0]
+* [HTTP/2] [1] [accept: */*]
+} [5 bytes data]
+> GET /products?limit=5&skip=10 HTTP/2
+> Host: dummyjson.com
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [230 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [230 bytes data]
+* old SSL session ID is stale, removing
+{ [5 bytes data]
+< HTTP/2 200 
+< date: Tue, 13 Jan 2026 11:24:26 GMT
+< content-type: application/json; charset=utf-8
+< server: cloudflare
+< x-ratelimit-limit: 100
+< x-ratelimit-remaining: 99
+< x-ratelimit-reset: 1768303472
+< x-dns-prefetch-control: off
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-xss-protection: 1; mode=block
+< access-control-allow-origin: *
+< etag: W/"2099-wgrTeGIpcU5lRWgPLkOvL75R1t8"
+< vary: Accept-Encoding
+< report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8cUfWJVfiMU%2Fxx%2Bq2CrGNyr2NcoyaOO11S9qUSR78vEvzZtbtqpVvmT7m4ntO%2B86o1rv0dZxp2B7iqSlB9EkvY7ubJDPxaHPCQV3"}]}
+< cf-cache-status: DYNAMIC
+< nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+< cf-ray: 9bd486f9180c127e-MRS
+< 
+{ [8345 bytes data]
+{"products":[{"id":11,"title":"Annibale Colombo Bed","description":"The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.","category":"furniture","price":1899.99,"discountPercentage":8.57,"rating":4.77,"stock":88,"tags":["furniture","beds"],"brand":"Annibale Colombo","sku":"FUR-ANN-ANN-011","weight":10,"dimensions":{"width":28.16,"height":25.36,"depth":17.28},"warrantyInformation":"1 year warranty","shippingInformation":"Ships in 1 month","availabilityStatus":"In Stock","reviews":[{"rating":2,"comment":"Would not recommend!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Christopher West","reviewerEmail":"christopher.west@x.dummyjson.com"},{"rating":4,"comment":"Highly impressed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Vivian Carter","reviewerEmail":"vivian.carter@x.dummyjson.com"},{"rating":1,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Mason Wright","reviewerEmail":"mason.wright@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":1,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"3610757456581","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp"},{"id":12,"title":"Annibale Colombo Sofa","description":"The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.","category":"furniture","price":2499.99,"discountPercentage":14.4,"rating":3.92,"stock":60,"tags":["furniture","sofas"],"brand":"Annibale Colombo","sku":"FUR-ANN-ANN-012","weight":6,"dimensions":{"width":12.75,"height":20.55,"depth":19.06},"warrantyInformation":"Lifetime warranty","shippingInformation":"Ships in 1 week","availabilityStatus":"In Stock","reviews":[{"rating":3,"comment":"Very unhappy with my purchase!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Christian Perez","reviewerEmail":"christian.perez@x.dummyjson.com"},{"rating":5,"comment":"Fast shipping!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Lillian Bishop","reviewerEmail":"lillian.bishop@x.dummyjson.com"},{"rating":1,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Lillian Simmons","reviewerEmail":"lillian.simmons@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":1,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"1777662847736","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"},{"id":13,"title":"Bedside Table African Cherry","description":"The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.","category":"furniture","price":299.99,"discountPercentage":19.09,"rating":2.87,"stock":64,"tags":["furniture","bedside tables"],"brand":"Furniture Co.","sku":"FUR-FUR-BED-013","weight":2,"dimensions":{"width":13.47,"height":24.99,"depth":27.35},"warrantyInformation":"5 year warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":4,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Aaliyah Hanson","reviewerEmail":"aaliyah.hanson@x.dummyjson.com"},{"rating":4,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Liam Smith","reviewerEmail":"liam.smith@x.dummyjson.com"},{"rating":4,"comment":"Highly recommended!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Avery Barnes","reviewerEmail":"avery.barnes@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":3,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"6441287925979","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp","https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp","https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp"},{"id":14,"title":"Knoll Saarinen Executive Conference Chair","description":"The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.","category":"furniture","price":499.99,"discountPercentage":2.01,"rating":4.88,"stock":26,"tags":["furniture","office chairs"],"brand":"Knoll","sku":"FUR-KNO-KNO-014","weight":10,"dimensions":{"width":13.81,"height":7.5,"depth":5.62},"warrantyInformation":"2 year warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":2,"comment":"Waste of money!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Ella Cook","reviewerEmail":"ella.cook@x.dummyjson.com"},{"rating":2,"comment":"Very dissatisfied!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Clara Berry","reviewerEmail":"clara.berry@x.dummyjson.com"},{"rating":5,"comment":"Would buy again!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Elena Long","reviewerEmail":"elena.long@x.dummyjson.com"}],"returnPolicy":"60 days return policy","minimumOrderQuantity":5,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"8919386859966","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp","https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/2.webp","https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp"},{"id":15,"title":"Wooden Bathroom Sink With Mirror","description":"The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.","category":"furniture","price":799.99,"discountPercentage":8.8,"rating":3.59,"stock":7,"tags":["furniture","bathroom"],"brand":"Bath Trends","sku":"FUR-BAT-WOO-015","weight":10,"dimensions":{"width":7.98,"height":8.88,"depth":28.46},"warrantyInformation":"3 year warranty","shippingInformation":"Ships in 3-5 business days","availabilityStatus":"Low Stock","reviews":[{"rating":4,"comment":"Fast shipping!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Logan Torres","reviewerEmail":"logan.torres@x.dummyjson.com"},{"rating":5,"comment":"Very pleased!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Aria Parker","reviewerEmail":"aria.parker@x.dummyjson.com"},{"rating":3,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Dylan Wells","reviewerEmail":"dylan.wells@x.dummyjson.com"}],"returnPolicy":"60 days return policy","minimumOrderQuantity":2,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"1958104402873","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp","https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/2.webp","https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/3.w100  8345    0  8345    0     0   6591      0 --:--:--  0:00:01 --:--:--  6596
+* Connection #0 to host dummyjson.com left intact
+ebp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp"}],"total":194,"skip":10,"limit":5}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host dummyjson.com:443 was resolved.
+* IPv6: 2606:4700:3031::ac43:cd2a, 2606:4700:3033::6815:3d17
+* IPv4: 104.21.61.23, 172.67.205.42
+*   Trying 104.21.61.23:443...
+* Connected to dummyjson.com (104.21.61.23) port 443
+* ALPN: curl offers h2,http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [19 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [2533 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [79 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519 / id-ecPublicKey
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=dummyjson.com
+*  start date: Dec 14 16:36:12 2025 GMT
+*  expire date: Mar 14 17:33:27 2026 GMT
+*  subjectAltName: host "dummyjson.com" matched cert's "dummyjson.com"
+*  issuer: C=US; O=Google Trust Services; CN=WE1
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA256
+*   Certificate level 1: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA384
+*   Certificate level 2: Public key type EC/secp384r1 (384/192 Bits/secBits), signed using ecdsa-with-SHA384
+} [5 bytes data]
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://dummyjson.com/products?limit=5&skip=10
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: dummyjson.com]
+* [HTTP/2] [1] [:path: /products?limit=5&skip=10]
+* [HTTP/2] [1] [user-agent: curl/8.5.0]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer fake-token]
+} [5 bytes data]
+> GET /products?limit=5&skip=10 HTTP/2
+> Host: dummyjson.com
+> User-Agent: curl/8.5.0
+> Accept: */*
+> Authorization: Bearer fake-token
+> 
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [230 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [230 bytes data]
+* old SSL session ID is stale, removing
+{ [5 bytes data]
+< HTTP/2 200 
+< date: Tue, 13 Jan 2026 11:24:53 GMT
+< content-type: application/json; charset=utf-8
+< server: cloudflare
+< x-ratelimit-limit: 100
+< x-ratelimit-remaining: 99
+< x-ratelimit-reset: 1768303496
+< x-dns-prefetch-control: off
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-xss-protection: 1; mode=block
+< access-control-allow-origin: *
+< etag: W/"2099-wgrTeGIpcU5lRWgPLkOvL75R1t8"
+< vary: Accept-Encoding
+< report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=P%2BOC5t4PAenG4StgCJlft3Jdzw3ZyrSJYsVq%2FodE8gsfHu06mCVlRY5rRtJzkxJ5yxjQYZow64hO5%2BJgne6cuGLb6HsM0whQ%2BaLnSgI%3D"}]}
+< cf-cache-status: DYNAMIC
+< nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+< cf-ray: 9bd487a0f9cfe1c4-MRS
+< 
+{ [2729 bytes data]
+100  2729    0  2729    0     0   2665      0 --:--:--  0:00:01 --:--:--  2667{"products":[{"id":11,"title":"Annibale Colombo Bed","description":"The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.","category":"furniture","price":1899.99,"discountPercentage":8.57,"rating":4.77,"stock":88,"tags":["furniture","beds"],"brand":"Annibale Colombo","sku":"FUR-ANN-ANN-011","weight":10,"dimensions":{"width":28.16,"height":25.36,"depth":17.28},"warrantyInformation":"1 year warranty","shippingInformation":"Ships in 1 month","availabilityStatus":"In Stock","reviews":[{"rating":2,"comment":"Would not recommend!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Christopher West","reviewerEmail":"christopher.west@x.dummyjson.com"},{"rating":4,"comment":"Highly impressed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Vivian Carter","reviewerEmail":"vivian.carter@x.dummyjson.com"},{"rating":1,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Mason Wright","reviewerEmail":"mason.wright@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":1,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"3610757456581","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp"},{"id":12,"title":"Annibale Colombo Sofa","description":"The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.","category":"furniture","price":2499.99,"discountPercentage":14.4,"rating":3.92,"stock":60,"tags":["furniture","sofas"],"brand":"Annibale Colombo","sku":"FUR-ANN-ANN-012","weight":6,"dimensions":{"width":12.75,"height":20.55,"depth":19.06},"warrantyInformation":"Lifetime warranty","shippingInformation":"Ships in 1 week","availabilityStatus":"In Stock","reviews":[{"rating":3,"comment":"Very unhappy with my purchase!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Christian Perez","reviewerEmail":"christian.perez@x.dummyjson.com"},{"rating":5,"comment":"Fast shipping!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Lillian Bishop","reviewerEmail":"lillian.bishop@x.dummyjson.com"},{"rating":1,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Lillian Simmons","reviewerEmail":"lillian.simmons@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":1,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"1777662847736","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"},{"id":13,"title":"Bedside Table African Cherry","description":"The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.","category":"furniture","price":299.99,"discountPercentage":19.09,"rating":2.87,"stock":64,"tags":["furniture","bedside tables"],"brand":"Furniture Co.","sku":"FUR-FUR-BED-013","weight":2,"dimensions":{"width":13.47,"height":24.99,"depth":27.35},"warrantyInformation":"5 year warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":4,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Aaliyah Hanson","reviewerEmail":"aaliyah.hanson@x.dummyjson.com"},{"rating":4,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Liam Smith","reviewerEmail":"liam.smith@x.dummyjson.com"},{"rating":4,"comment":"Highly recommended!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Avery Barnes","reviewerEmail":"avery.barnes@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":3,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"6441287925979","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp","https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp","https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp"},{"id":14,"title":"Knoll Saarinen Executive Conference Chair","description":"The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.","category":"furniture","price":499.99,"discountPercentage":2.01,"rating":4.88,"stock":26,"tags":["furniture","office chairs"],"brand":"Knoll","sku":"FUR-KNO-KNO-014","weight":10,"dimensions":{"width":13.81,"height":7.5,"depth":5.62},"warrantyInformation":"2 year warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":2,"comment":"Waste of money!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Ella Cook","reviewerEmail":"ella.cook@x.dummyjson.com"},{"rating":2,"comment":"Very dissatisfied!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Clara Berry","reviewerEmail":"clara.berry@x.dummyjson.com"},{"rating":5,"comment":"Would buy again!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Elena Long","reviewerEmail":"elena.long@x.dummyjson.com"}],"returnPolicy":"60 days return policy","minimumOrderQuantity":5,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"8919386859966","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp","https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/2.webp","https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp"},{"id":15,"title":"Wooden Bathroom Sink With Mirror","description":"The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.","category":"furniture","price":799.99,"discountPercentage":8.8,"rating":3.59,"stock":7,"tags":["furniture","bathroom"],"brand":"Bath Trends","sku":"FUR-BAT-WOO-015","weight":10,"dimensions":{"width":7.98,"height":8.88,"depth":28.46},"warrantyInformation":"3 year warranty","shippingInformation":"Ships in 3-5 business days","availabilityStatus":"Low Stock","reviews":[{"rating":4,"comment":"Fast shipping!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Logan Torres","reviewerEmail":"logan.torres@x.dummyjson.com"},{"rating":5,"comment":"Very pleased!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Aria Parker","reviewerEmail":"aria.parker@x.dummyjson.com"},{"rating":3,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Dylan Wells","reviewerEmail":"dylan.wells@x.dummyjson.com"}],"returnPolicy":"60 days return policy","minimumOrderQuantity":2,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"1958104402873","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp","https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/2.webp","https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/3.w100  8345    0  8345    0     0   8147      0 --:--:--  0:00:01 --:--:--  8149
+* Connection #0 to host dummyjson.com left intact
+ebp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp"}],"total":194,"skip":10,"limit":5}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host dummyjson.com:443 was resolved.
+* IPv6: 2606:4700:3033::6815:3d17, 2606:4700:3031::ac43:cd2a
+* IPv4: 104.21.61.23, 172.67.205.42
+*   Trying 104.21.61.23:443...
+*   Trying [2606:4700:3033::6815:3d17]:443...
+* Immediate connect fail for 2606:4700:3033::6815:3d17: Network is unreachable
+*   Trying [2606:4700:3031::ac43:cd2a]:443...
+* Immediate connect fail for 2606:4700:3031::ac43:cd2a: Network is unreachable
+* Connected to dummyjson.com (104.21.61.23) port 443
+* ALPN: curl offers h2,http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [19 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [2533 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [79 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519 / id-ecPublicKey
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=dummyjson.com
+*  start date: Dec 14 16:36:12 2025 GMT
+*  expire date: Mar 14 17:33:27 2026 GMT
+*  subjectAltName: host "dummyjson.com" matched cert's "dummyjson.com"
+*  issuer: C=US; O=Google Trust Services; CN=WE1
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA256
+*   Certificate level 1: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA384
+*   Certificate level 2: Public key type EC/secp384r1 (384/192 Bits/secBits), signed using ecdsa-with-SHA384
+} [5 bytes data]
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://dummyjson.com/products?limit=5&skip=10
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: dummyjson.com]
+* [HTTP/2] [1] [:path: /products?limit=5&skip=10]
+* [HTTP/2] [1] [user-agent: curl/8.5.0]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [if-none-match: 099-wgrTeGIpcU5lRWgPLkOvL75R1t8]
+} [5 bytes data]
+> GET /products?limit=5&skip=10 HTTP/2
+> Host: dummyjson.com
+> User-Agent: curl/8.5.0
+> Accept: */*
+> If-None-Match: 099-wgrTeGIpcU5lRWgPLkOvL75R1t8
+> 
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [230 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [230 bytes data]
+* old SSL session ID is stale, removing
+{ [5 bytes data]
+< HTTP/2 200 
+< date: Tue, 13 Jan 2026 11:28:06 GMT
+< content-type: application/json; charset=utf-8
+< server: cloudflare
+< x-ratelimit-limit: 100
+< x-ratelimit-remaining: 99
+< x-ratelimit-reset: 1768303692
+< x-dns-prefetch-control: off
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-xss-protection: 1; mode=block
+< access-control-allow-origin: *
+< etag: W/"2099-wgrTeGIpcU5lRWgPLkOvL75R1t8"
+< vary: Accept-Encoding
+< report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lOgR9%2F9MDCbfXuMk8vFWH4pjb97JRoCaMt6xGArBJN4cS6OO4926EOk%2F2LpTemCRf493icQ2tiM%2B7U4PYrJU4irJ9LtR8hORTATYzLk%3D"}]}
+< cf-cache-status: DYNAMIC
+< nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+< cf-ray: 9bd48c594ec6e17f-MRS
+< 
+{ [8345 bytes data]
+{"products":[{"id":11,"title":"Annibale Colombo Bed","description":"The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.","category":"furniture","price":1899.99,"discountPercentage":8.57,"rating":4.77,"stock":88,"tags":["furniture","beds"],"brand":"Annibale Colombo","sku":"FUR-ANN-ANN-011","weight":10,"dimensions":{"width":28.16,"height":25.36,"depth":17.28},"warrantyInformation":"1 year warranty","shippingInformation":"Ships in 1 month","availabilityStatus":"In Stock","reviews":[{"rating":2,"comment":"Would not recommend!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Christopher West","reviewerEmail":"christopher.west@x.dummyjson.com"},{"rating":4,"comment":"Highly impressed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Vivian Carter","reviewerEmail":"vivian.carter@x.dummyjson.com"},{"rating":1,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Mason Wright","reviewerEmail":"mason.wright@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":1,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"3610757456581","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp"},{"id":12,"title":"Annibale Colombo Sofa","description":"The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.","category":"furniture","price":2499.99,"discountPercentage":14.4,"rating":3.92,"stock":60,"tags":["furniture","sofas"],"brand":"Annibale Colombo","sku":"FUR-ANN-ANN-012","weight":6,"dimensions":{"width":12.75,"height":20.55,"depth":19.06},"warrantyInformation":"Lifetime warranty","shippingInformation":"Ships in 1 week","availabilityStatus":"In Stock","reviews":[{"rating":3,"comment":"Very unhappy with my purchase!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Christian Perez","reviewerEmail":"christian.perez@x.dummyjson.com"},{"rating":5,"comment":"Fast shipping!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Lillian Bishop","reviewerEmail":"lillian.bishop@x.dummyjson.com"},{"rating":1,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Lillian Simmons","reviewerEmail":"lillian.simmons@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":1,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"1777662847736","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"},{"id":13,"title":"Bedside Table African Cherry","description":"The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.","category":"furniture","price":299.99,"discountPercentage":19.09,"rating":2.87,"stock":64,"tags":["furniture","bedside tables"],"brand":"Furniture Co.","sku":"FUR-FUR-BED-013","weight":2,"dimensions":{"width":13.47,"height":24.99,"depth":27.35},"warrantyInformation":"5 year warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":4,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Aaliyah Hanson","reviewerEmail":"aaliyah.hanson@x.dummyjson.com"},{"rating":4,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Liam Smith","reviewerEmail":"liam.smith@x.dummyjson.com"},{"rating":4,"comment":"Highly recommended!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Avery Barnes","reviewerEmail":"avery.barnes@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":3,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"6441287925979","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp","https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp","https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp"},{"id":14,"title":"Knoll Saarinen Executive Conference Chair","description":"The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.","category":"furniture","price":499.99,"discountPercentage":2.01,"rating":4.88,"stock":26,"tags":["furniture","office chairs"],"brand":"Knoll","sku":"FUR-KNO-KNO-014","weight":10,"dimensions":{"width":13.81,"height":7.5,"depth":5.62},"warrantyInformation":"2 year warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":2,"comment":"Waste of money!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Ella Cook","reviewerEmail":"ella.cook@x.dummyjson.com"},{"rating":2,"comment":"Very dissatisfied!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Clara Berry","reviewerEmail":"clara.berry@x.dummyjson.com"},{"rating":5,"comment":"Would buy again!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Elena Long","reviewerEmail":"elena.long@x.dummyjson.com"}],"returnPolicy":"60 days return policy","minimumOrderQuantity":5,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"8919386859966","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp","https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/2.webp","https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp"},{"id":15,"title":"Wooden Bathroom Sink With Mirror","description":"The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.","category":"furniture","price":799.99,"discountPercentage":8.8,"rating":3.59,"stock":7,"tags":["furniture","bathroom"],"brand":"Bath Trends","sku":"FUR-BAT-WOO-015","weight":10,"dimensions":{"width":7.98,"height":8.88,"depth":28.46},"warrantyInformation":"3 year warranty","shippingInformation":"Ships in 3-5 business days","availabilityStatus":"Low Stock","reviews":[{"rating":4,"comment":"Fast shipping!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Logan Torres","reviewerEmail":"logan.torres@x.dummyjson.com"},{"rating":5,"comment":"Very pleased!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Aria Parker","reviewerEmail":"aria.parker@x.dummyjson.com"},{"rating":3,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Dylan Wells","reviewerEmail":"dylan.wells@x.dummyjson.com"}],"returnPolicy":"60 days return policy","minimumOrderQuantity":2,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"1958104402873","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp","https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/2.webp","https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/3.w100  8345    0  8345    0     0   6680      0 --:--:--  0:00:01 --:--:--  6681100  8345    0  8345    0     0   6679      0 --:--:--  0:00:01 --:--:--  6681
+* Connection #0 to host dummyjson.com left intact
+ebp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp"}],"total":194,"skip":10,"limit":5}

@@ -1,4 +1,4 @@
-## 
+# 
 ### Learning Outcomes
 - Master terminal navigation and system inspection
 - Deep understanding of PATH, environment variables, Node runtime
