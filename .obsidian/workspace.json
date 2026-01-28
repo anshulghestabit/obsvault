@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "269afcdfb6f094f8",
+        "id": "ecf966abc1fc375c",
         "type": "tabs",
         "children": [
           {
-            "id": "f3e2e2310a6a19c7",
+            "id": "a18669ea523657a5",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Hestabit/Week3/day-3/components/ui/Badge.jsx",
-                "bFile": "Hestabit/Week3/day-3/components/ui/Badge.jsx",
+                "aFile": "Hestabit/Week3/day-3/.idea/.gitignore",
+                "bFile": "Hestabit/Week3/day-3/.idea/.gitignore",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Badge.jsx  (Working Tree)"
+              "title": "Diff: .gitignore  (Working Tree)"
             }
           }
         ]
@@ -207,9 +207,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f3e2e2310a6a19c7",
+  "active": "a18669ea523657a5",
   "lastOpenFiles": [
     "Hestabit/Week3/Week-3-Advance-Frontend-1763445142732.pdf",
+    "LEARNING  NOTES/Week 1/SSH.md",
+    "LEARNING  NOTES/Week 1/lua.md",
+    "Excalidraw/Drawing 2026-01-07 16.38.49.excalidraw.md",
+    "Hestabit/Week3/day-3/README.md",
     "Hestabit/Week3/day-3/eslint.config.mjs",
     "Hestabit/Week3/day-3/postcss.config.mjs",
     "Hestabit/Week3/day-3/jsconfig.json",
@@ -224,7 +228,6 @@
     "Hestabit/Week3/day-3/components/ui/Sidebar.jsx",
     "Hestabit/Week3/day-3/components/ui/Navbar.jsx",
     "Hestabit/Week3/day-3/components/ui/Modal.jsx",
-    "Hestabit/Week3/day-3/components/ui/Input.jsx",
     "Hestabit/Week3/day-3/day-2/node_modules/lightningcss-linux-x64-musl/README.md",
     "Hestabit/Week3/day-3/day-2/node_modules/eslint-plugin-react/node_modules/resolve/SECURITY.md",
     "Hestabit/Week3/day-3/day-2/node_modules/eslint-plugin-react/README.md",
@@ -246,10 +249,6 @@
     "Hestabit/Week3/day-3/day-2/node_modules/eslint-plugin-import/docs/rules/no-named-default.md",
     "Hestabit/Week3/day-3/day-2/node_modules/eslint-plugin-import/docs/rules/no-named-as-default.md",
     "Hestabit/Week3/day-3/day-2/node_modules/eslint-plugin-import/docs/rules/no-named-as-default-member.md",
-    "Hestabit/Week3/day-3/day-2/node_modules/eslint-plugin-import/docs/rules/no-mutable-exports.md",
-    "Hestabit/Week3/day-3/day-2/node_modules/eslint-plugin-import/docs/rules/no-internal-modules.md",
-    "Hestabit/Week3/day-3/day-2/node_modules/eslint-plugin-import/docs/rules/no-import-module-exports.md",
-    "Hestabit/Week3/day-3/day-2/node_modules/eslint-plugin-import/docs/rules/no-extraneous-dependencies.md",
     "Hestabit/Week3/day-3/day-2/public/window.svg",
     "Hestabit/Week3/day-3/day-2/public/vercel.svg",
     "Hestabit/Week3/day-3/day-2/public/next.svg",
