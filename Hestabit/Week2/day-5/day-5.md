@@ -18,12 +18,12 @@ https://codehim.com/wp-content/uploads/2021/09/bootstrap-5-ecommerce-product-lis
 
 ### Activity & Output Table
 
-| Activity | Output |
-| :--- | :--- |
-| **Project setup** | folder + planning |
-| **UI using HTML + CSS** | skeleton ready |
-| **JS fetch + rendering + search** | functional UI |
-| **Final touches/responsive/polish** | proper layout |
+| Activity                            | Output            |
+| :---------------------------------- | :---------------- |
+| **Project setup**                   | folder + planning |
+| **UI using HTML + CSS**             | skeleton ready    |
+| **JS fetch + rendering + search**   | functional UI     |
+| **Final touches/responsive/polish** | proper layout     |
 
 ### ✅ Deliverables:
 * Repo: `week2-frontend`
