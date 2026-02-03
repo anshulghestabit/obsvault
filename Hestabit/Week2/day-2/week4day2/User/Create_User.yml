@@ -1,0 +1,57 @@
+info:
+  name: Create_User
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:3000/api/users
+  headers:
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: |
+      {
+        "name": "Alice",
+        "email": "alice@example.com",
+        "password": "123456"
+      }
+  auth: inherit
+
+runtime:
+  scripts:
+    - type: tests
+      code: |-
+        meta:
+          name: Create User
+          tags: ["users","create"]
+
+        http:
+          method: post
+          url: http://localhost:3000/api/users
+          headers:
+            - name: Content-Type
+              value: application/json
+          body:
+            type: json
+            data: |
+              {
+                "name": "Alice",
+                "email": "alice@example.com",
+                "password": "123456"
+              }
+
+        tests: |
+          test("status 200", () => {
+            expect(res.getStatus()).to.equal(200);
+          });
+          test("response contains email", () => {
+            expect(res.getBody().email).to.equal("alice@example.com");
+          });
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

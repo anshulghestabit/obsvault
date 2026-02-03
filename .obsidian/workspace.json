@@ -11,12 +11,14 @@
             "id": "21a64175a8060900",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Hestabit/Week4/Week-4-Advanced-Backened-Engineering-1764050588592.pdf"
+                "file": "Hestabit/Week4/day-2/day-2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Week-4-Advanced-Backened-Engineering-1764050588592"
+              "icon": "lucide-file",
+              "title": "day-2"
             }
           }
         ]
@@ -188,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 586.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,20 +207,20 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6b4ba616204f2295",
+  "active": "49d25848f7f4c932",
   "lastOpenFiles": [
-    "Hestabit/Week4/day-2/package-lock.json",
-    "Hestabit/Week4/day-2/package.json",
+    "Hestabit/Week4/Week-4-Advanced-Backened-Engineering-1764050588592.pdf",
+    "Hestabit/Week2/day-2/week4day2/User/Create_User.yml",
+    "Hestabit/Week2/day-2/week4day2/Health/folder.yml",
+    "Hestabit/Week2/day-2/week4day2/Health",
+    "Hestabit/Week2/day-2/week4day2/Product/folder.yml",
+    "Hestabit/Week2/day-2/week4day2/Product",
+    "Hestabit/Week2/day-2/week4day2/User/folder.yml",
+    "Hestabit/Week2/day-2/week4day2/User",
+    "Hestabit/Week4/day-2/xaa",
+    "Hestabit/Week4/day-2/src/routes/index.js~",
+    "Hestabit/Week3/Week-3-Advance-Frontend-1763445142732.pdf",
     "Hestabit/Week4/day-2/day-1.md",
-    "Hestabit/Week4/day-2/src/utils/logger.js",
-    "Hestabit/Week4/day-2/src/routes/index.js",
-    "Hestabit/Week4/day-2/src/loaders/routes.js",
-    "Hestabit/Week4/day-2/src/loaders/mongoose.js",
-    "Hestabit/Week4/day-2/src/loaders/express.js",
-    "Hestabit/Week4/day-2/src/loaders/index.js",
-    "Hestabit/Week4/day-2/src/config/index.js",
-    "Hestabit/Week4/day-2/src/utils",
-    "Hestabit/Week4/day-2/src/services",
     "Hestabit/Week4/day-2/node_modules/mongoose/lib/drivers/SPEC.md",
     "Hestabit/Week4/day-2/node_modules/kareem/coverage/lcov-report/sort-arrow-sprite.png",
     "Hestabit/Week4/day-2/node_modules/kareem/coverage/lcov-report/favicon.png",
