@@ -5,7 +5,9 @@ info:
 
 http:
   method: POST
-  url: http://localhost:3000/api/users
+  url: |-
+    ss -ltnp | grep 27017
+    http://localhost:3000/api/users
   headers:
     - name: Content-Type
       value: application/json
