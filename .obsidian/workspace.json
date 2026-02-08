@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Hestabit/Week5/Week-5--Server-Side-Foundations-with-Docker---DevOps-Basics-1764750493725.pdf"
+                "file": "Hestabit/Week4/Week-4-Advanced-Backened-Engineering-1764050588592.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Week-5--Server-Side-Foundations-with-Docker---DevOps-Basics-1764750493725"
+              "title": "Week-4-Advanced-Backened-Engineering-1764050588592"
             }
           }
         ]
@@ -208,16 +208,19 @@
   "active": "21a64175a8060900",
   "lastOpenFiles": [
     "Hestabit/Week4/Week-4-Advanced-Backened-Engineering-1764050588592.pdf",
+    "Hestabit/Week3/Week-3-Advance-Frontend-1763445142732.pdf",
+    "Hestabit/Week6/week6.pdf",
+    "Hestabit/Week4/day-3/day-3.md",
+    "Hestabit/Week4/day-2/package.json",
+    "Hestabit/Week4/day-2/package-lock.json",
     "Hestabit/Week4/day-2/day-2.md",
+    "Hestabit/Week4/day-4/day-4.md",
+    "Hestabit/Week5/Week-5--Server-Side-Foundations-with-Docker---DevOps-Basics-1764750493725.pdf",
     "Hestabit/Week2/day-2/week4day2/User/Create_User.yml",
     "Hestabit/Week2/day-2/week4day2/Health/folder.yml",
     "Hestabit/Week2/day-2/week4day2/Health",
     "Hestabit/Week2/day-2/week4day2/Product/folder.yml",
     "Hestabit/Week2/day-2/week4day2/Product",
-    "Hestabit/Week2/day-2/week4day2/User/folder.yml",
-    "Hestabit/Week2/day-2/week4day2/User",
-    "Hestabit/Week4/day-2/xaa",
-    "Hestabit/Week4/day-2/src/routes/index.js~",
     "Hestabit/Week4/day-2/day-1.md",
     "Hestabit/Week4/day-2/node_modules/mongoose/lib/drivers/SPEC.md",
     "Hestabit/Week4/day-2/node_modules/kareem/coverage/lcov-report/sort-arrow-sprite.png",
@@ -242,8 +245,6 @@
     "Hestabit/Week4/day-2/node_modules/vary/README.md",
     "Hestabit/Week4/day-2/node_modules/vary/HISTORY.md",
     "Hestabit/Week4/day-2/node_modules/util-deprecate/README.md",
-    "Hestabit/Week4/day-2/node_modules/util-deprecate/History.md",
-    "Hestabit/Week4/day-2/node_modules/unpipe/README.md",
     "Hestabit/Week4/day-2/day-1/node_modules/kareem/coverage/lcov-report/sort-arrow-sprite.png",
     "Hestabit/Week4/day-2/day-1/node_modules/kareem/coverage/lcov-report/favicon.png",
     "Hestabit/Week4/day-1/node_modules/kareem/coverage/lcov-report/sort-arrow-sprite.png",
