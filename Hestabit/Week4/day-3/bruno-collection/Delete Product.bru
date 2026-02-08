@@ -1,0 +1,27 @@
+meta {
+  name: Delete Product (Soft Delete)
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:3000/api/v1/products/PRODUCT_ID_HERE
+  body: none
+  auth: none
+}
+
+docs {
+  Soft delete a product by ID.
+  
+  Instructions:
+  1. Get a product _id from "Get All Products"
+  2. Replace PRODUCT_ID_HERE with the actual _id
+  3. Send the request
+  
+  Soft Delete Behavior:
+  - Sets isDeleted: true
+  - Sets deletedAt: current timestamp
+  - Product remains in database
+  - Product will NOT appear in future queries
+  - Returns 204 No Content on success
+}

@@ -1,0 +1,32 @@
+meta {
+  name: Search Products
+  type: http
+  seq: 6
+}
+
+get {
+  url: http://localhost:3000/api/v1/products?search=laptop
+  body: none
+  auth: none
+}
+
+params:query {
+  search: laptop
+}
+
+docs {
+  Search products by name or description using regex.
+  
+  Features:
+  - Case-insensitive search
+  - Searches both name AND description fields
+  - Uses MongoDB regex with $or operator
+  
+  Examples:
+  ?search=laptop
+  ?search=macbook
+  ?search=phone
+  ?search=book
+  
+  Try changing the 'search' query parameter value!
+}

@@ -1,0 +1,33 @@
+meta {
+  name: Filter by Price Range
+  type: http
+  seq: 8
+}
+
+get {
+  url: http://localhost:3000/api/v1/products?price[gte]=500&price[lte]=2000
+  body: none
+  auth: none
+}
+
+params:query {
+  price[gte]: 500
+  price[lte]: 2000
+}
+
+docs {
+  Filter products by price range using comparison operators.
+  
+  Available operators:
+  - price[gte]=500  → Price >= 500
+  - price[gt]=500   → Price > 500
+  - price[lte]=2000 → Price <= 2000
+  - price[lt]=2000  → Price < 2000
+  
+  You can combine them:
+  ?price[gte]=500&price[lte]=2000
+  
+  This finds products between $500 and $2000
+  
+  Try changing the values in the query params!
+}
