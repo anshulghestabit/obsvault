@@ -1,0 +1,28 @@
+services:
+  client:
+    build: ./client          # Use the Dockerfile instead of a raw image
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+    volumes:
+      - ./client:/app        # Sync your code changes
+      - /app/node_modules    # CRITICAL: Prevents host from deleting container dependencies
+  server:
+    build: ./server
+    ports:
+      - "5000"
+    environment:
+      MONGO_URL: mongodb://mongo:27017/mydb
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:6
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
+
+
