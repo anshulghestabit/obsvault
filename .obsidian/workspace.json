@@ -11,14 +11,12 @@
             "id": "21a64175a8060900",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Hestabit/Week5/day-1/linux-in-container.md",
-                "mode": "source",
-                "source": false
+                "file": "Hestabit/Week8/week8.pdf"
               },
-              "icon": "lucide-file",
-              "title": "linux-in-container"
+              "icon": "lucide-file-text",
+              "title": "week8"
             }
           }
         ]
@@ -171,8 +169,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -190,7 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5
+    "width": 511.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,54 +205,53 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "21a64175a8060900",
+  "active": "6b4ba616204f2295",
   "lastOpenFiles": [
-    "Hestabit/Week5/day-3/day-3.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/_ts3.4/dist/ast-utils/eslint-utils/scopeAnalysis.d.ts",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/_ts3.4/dist/ast-utils/eslint-utils/predicates.d.ts",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/_ts3.4/dist/ast-utils/eslint-utils/index.d.ts",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/_ts3.4/dist/ast-utils/eslint-utils/astUtilities.d.ts",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/_ts3.4/dist/ast-utils/eslint-utils/ReferenceTracker.d.ts",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/_ts3.4/dist/ast-utils/eslint-utils/PatternMatcher.d.ts",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/_ts3.4/dist/eslint-utils/rule-tester/dependencyConstraints.d.ts",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/_ts3.4/dist/eslint-utils/rule-tester/RuleTester.d.ts",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/dist/eslint-utils/rule-tester/dependencyConstraints.js.map",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/dist/eslint-utils/rule-tester/dependencyConstraints.js",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/node_modules/estraverse/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/node_modules/eslint-scope/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/node_modules/eslint-scope/CHANGELOG.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/utils/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/type-utils/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@typescript-eslint/scope-manager/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/plugin-transform-runtime/node_modules/babel-plugin-polyfill-corejs3/core-js-compat/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@types/serve-static/node_modules/@types/send/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@types/express/node_modules/@types/express-serve-static-core/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/preset-env/node_modules/semver/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/plugin-transform-runtime/node_modules/semver/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/plugin-transform-runtime/node_modules/babel-plugin-polyfill-corejs3/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/helper-create-regexp-features-plugin/node_modules/semver/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/helper-create-class-features-plugin/node_modules/semver/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/helper-compilation-targets/node_modules/semver/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/eslint-parser/node_modules/eslint-visitor-keys/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/eslint-parser/node_modules/eslint-visitor-keys/CHANGELOG.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/eslint-parser/node_modules/semver/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/core/node_modules/semver/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/types/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/traverse/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/template/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/runtime/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/preset-typescript/README.md",
-    "Hestabit/Week5/day-3/day-2/client/node_modules/@babel/preset-react/README.md",
-    "Hestabit/Week5/day-2/client/src/logo.svg",
-    "Hestabit/Week5/day-2/client/public/logo512.png",
-    "Hestabit/Week5/day-2/client/public/logo192.png",
-    "Hestabit/Week5/day-2/client/node_modules/resolve-url-loader/docs/detailed-problem.svg",
-    "Hestabit/Week5/day-2/client/node_modules/resolve-url-loader/docs/basic-problem.svg",
-    "Hestabit/Week5/day-2/client/node_modules/dotenv-expand/dotenv-expand.png",
-    "Hestabit/Week5/day-2/client/node_modules/@jest/core/build/assets/jest_logo.png",
-    "Hestabit/Week5/day-2/client/node_modules/serve-index/public/icons/page_world.png",
-    "Hestabit/Week5/day-2/client/node_modules/serve-index/public/icons/page_white_zip.png",
-    "Hestabit/Week5/day-2/client/node_modules/serve-index/public/icons/page_word.png",
+    "Hestabit/Week6/week6.pdf",
+    "Hestabit/Week6/day-1/day-1.md",
+    "Hestabit/Week6/day-5/day-5.md",
+    "Hestabit/Week6/yankedday-2/src/data/processed/final_features/X_train_final.csv",
+    "Hestabit/Week6/yankedday-2/src/data/processed/final_features/X_test_final.csv",
+    "Hestabit/Week6/yankedday-2/src/features/__pycache__/__init__.cpython-312.pyc",
+    "Hestabit/Week6/yankedday-2/src/features/__pycache__/transformers.cpython-312.pyc",
+    "Hestabit/Week6/yankedday-2/src/utils/__pycache__/helpers.cpython-312.pyc",
+    "Hestabit/Week6/yankedday-2/src/utils/__pycache__/logger.cpython-312.pyc",
+    "Hestabit/Week6/yankedday-2/src/utils/__pycache__/__init__.cpython-312.pyc",
+    "Hestabit/Week6/yankedday-2/src/notebooks/plots/importance_mutual_information.png",
+    "Hestabit/Week6/yankedday-2/src/notebooks/plots/importance_tree_based.png",
+    "Hestabit/Week6/yankedday-2/src/data/processed/final_features",
+    "Hestabit/Week6/yankedday-2/src/data/processed/X_train_engineered.csv",
+    "Hestabit/Week6/yankedday-1/src/notebooks/plots/target_distribution.png",
+    "Hestabit/Week6/yankedday-1/src/notebooks/plots/numerical_distributions.png",
+    "Hestabit/Week6/yankedday-1/src/notebooks/plots/correlation.png",
+    "Hestabit/Week6/day-2/day-2.md",
+    "Hestabit/Week4/day-1/README.md",
+    "Hestabit/Week4/day-2/node_modules/node-gyp-build/SECURITY.md",
+    "Hestabit/Week4/day-2/node_modules/node-gyp-build/README.md",
+    "Hestabit/Week4/day-2/node_modules/bcrypt/SECURITY.md",
+    "Hestabit/Week4/day-2/node_modules/bcrypt/README.md",
+    "Hestabit/Week4/day-2/node_modules/bcrypt/ISSUE_TEMPLATE.md",
+    "Hestabit/Week4/day-2/node_modules/bcrypt/CHANGELOG.md",
+    "Hestabit/Week4/day-2/node_modules/node-addon-api/README.md",
+    "Hestabit/Week4/day-2/node_modules/node-addon-api/LICENSE.md",
+    "Hestabit/Week4/day-2/node_modules/node-addon-api/tools/README.md",
+    "Hestabit/Week4/day-2/README.md",
+    "Hestabit/Week4/day-2/node_modules/mongoose/lib/drivers/SPEC.md",
+    "Hestabit/Week4/day-2/node_modules/kareem/coverage/lcov-report/sort-arrow-sprite.png",
+    "Hestabit/Week4/day-2/node_modules/kareem/coverage/lcov-report/favicon.png",
+    "Hestabit/Week4/day-2/node_modules/@types/webidl-conversions/README.md",
+    "Hestabit/Week4/day-2/node_modules/@types/whatwg-url/README.md",
+    "Hestabit/Week4/day-2/node_modules/@types/triple-beam/README.md",
+    "Hestabit/Week4/day-2/node_modules/@so-ric/colorspace/README.md",
+    "Hestabit/Week4/day-2/node_modules/@so-ric/colorspace/LICENSE.md",
+    "Hestabit/Week4/day-2/node_modules/@so-ric/colorspace/CHANGELOG.md",
+    "Hestabit/Week4/day-2/node_modules/@mongodb-js/saslprep/readme.md",
+    "Hestabit/Week4/day-2/node_modules/@dabh/diagnostics/README.md",
+    "Hestabit/Week4/day-2/node_modules/@dabh/diagnostics/CHANGELOG.md",
+    "Hestabit/Week4/day-2/node_modules/@colors/colors/README.md",
+    "Hestabit/Week4/day-1/node_modules/kareem/coverage/lcov-report/sort-arrow-sprite.png",
+    "Hestabit/Week4/day-1/node_modules/kareem/coverage/lcov-report/favicon.png",
+    "Hestabit/yweek4-paste/day-5/node_modules/swagger-jsdoc/docusaurus/static/img/undraw_docusaurus_tree.svg",
     "Untitled.canvas",
     "Hestabit/Untitled.canvas"
   ]

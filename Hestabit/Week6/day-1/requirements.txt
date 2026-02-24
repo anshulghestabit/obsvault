@@ -1,0 +1,7 @@
+pandas~=3.0.1
+numpy~=2.4.2
+matplotlib
+seaborn
+missingno
+scipy
+scikit-learn

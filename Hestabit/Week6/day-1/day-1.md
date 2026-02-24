@@ -25,6 +25,7 @@ Interns will learn:
 ```text
 src/
   data/
+  logs/
   notebooks/
   features/
   pipelines/

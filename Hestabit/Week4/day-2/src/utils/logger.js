@@ -1,32 +1,53 @@
 const winston = require('winston');
+const path = require('path');
 const config = require('../config');
 
-const transports = [];
+const { combine, timestamp, errors, json, printf } = winston.format;
 
-// In development, print colorful logs to terminal
-if (config.nodeEnv !== 'development') {
-  transports.push(new winston.transports.Console());
-} else {
-  transports.push(
-    new winston.transports.Console({
-      format: winston.format.combine(
-        winston.format.cli(),
-        winston.format.splat()
-      )
-    })
-  );
-}
-
-const LoggerInstance = winston.createLogger({
-  level: config.logs.level,
-  levels: winston.config.npm.levels,
-  format: winston.format.combine(
-    winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
-    winston.format.errors({ stack: true }),
-    winston.format.splat(),
-    winston.format.json()
-  ),
-  transports
+const consoleFormat = printf(({ level, message, timestamp, stack }) => {
+  return `${timestamp} [${level.toUpperCase()}] ${stack || message}`;
 });
 
-module.exports = LoggerInstance;
+class Logger {
+  constructor() {
+    this.logger = winston.createLogger({
+      level: config.logLevel,
+      format: combine(
+        timestamp(),
+        errors({ stack: true }),
+        json()
+      ),
+      transports: [
+        new winston.transports.File({
+          filename: path.join(__dirname, '../logs/error.log'),
+          level: 'error'
+        }),
+        new winston.transports.File({
+          filename: path.join(__dirname, '../logs/combined.log')
+        })
+      ]
+    });
+
+    if (config.nodeEnv !== 'production') {
+      this.logger.add(
+        new winston.transports.Console({
+          format: combine(timestamp(), consoleFormat)
+        })
+      );
+    }
+  }
+
+  info(message, meta = {}) {
+    this.logger.info(message, meta);
+  }
+
+  error(message, meta = {}) {
+    this.logger.error(message, meta);
+  }
+
+  warn(message, meta = {}) {
+    this.logger.warn(message, meta);
+  }
+}
+
+module.exports = new Logger();

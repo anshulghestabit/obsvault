@@ -1,59 +1,66 @@
 const Product = require('../models/Product');
 
 class ProductRepository {
-
-  // CREATE
   async create(data) {
-    return Product.create(data);
+    try {
+      return await Product.create(data);
+    } catch (error) {
+      throw error;
+    }
   }
 
-  // READ: By ID
   async findById(id) {
-    return Product.findById(id);
+    try {
+      return await Product.findById(id).populate('owner').lean();
+    } catch (error) {
+      throw error;
+    }
   }
 
-  // READ: All (with pagination)
-  async findPaginated(page = 1, limit = 10, filter = {}) {
+  async findPaginated(filter = {}, options = {}) {
+    try {
+      const { page = 1, limit = 10, sort = { createdAt: -1 } } = options;
+      const skip = (page - 1) * limit;
 
-    const skip = (page - 1) * limit;
+      const [data, total] = await Promise.all([
+        Product.find(filter)
+          .sort(sort)
+          .skip(skip)
+          .limit(limit)
+          .populate('owner')
+          .lean(),
+        Product.countDocuments(filter)
+      ]);
 
-    return Product.find(filter)
-      .sort({ createdAt: -1 })
-      .skip(skip)
-      .limit(limit);
+      return {
+        data,
+        total,
+        page,
+        totalPages: Math.ceil(total / limit)
+      };
+    } catch (error) {
+      throw error;
+    }
   }
 
-  // READ: By Status (optimized by index)
-  async findByStatus(status, page = 1, limit = 10) {
-
-    const skip = (page - 1) * limit;
-
-    return Product.find({ status })
-      .sort({ createdAt: -1 })
-      .skip(skip)
-      .limit(limit);
-  }
-
-  // UPDATE
   async update(id, data) {
-    return Product.findByIdAndUpdate(
-      id,
-      data,
-      { new: true, runValidators: true }
-    );
+    try {
+      return await Product.findByIdAndUpdate(id, data, {
+        new: true,
+        runValidators: true
+      }).lean();
+    } catch (error) {
+      throw error;
+    }
   }
 
-  // DELETE (Hard delete for now)
   async delete(id) {
-    return Product.findByIdAndDelete(id);
+    try {
+      return await Product.findByIdAndDelete(id).lean();
+    } catch (error) {
+      throw error;
+    }
   }
-
-  // COUNT (for pagination meta)
-  async count(filter = {}) {
-    return Product.countDocuments(filter);
-  }
-
 }
 
 module.exports = new ProductRepository();
-
