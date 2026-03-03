@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Hestabit/Week8/week8.pdf"
+                "file": "Hestabit/Week6/week6.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "week8"
+              "title": "week6"
             }
           }
         ]
@@ -205,10 +205,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6b4ba616204f2295",
+  "active": "21a64175a8060900",
   "lastOpenFiles": [
-    "Hestabit/Welcome.md",
     "Hestabit/Week8/week8.pdf",
+    "Hestabit/Welcome.md",
     "Hestabit/Week4/day-1/node_modules/safe-buffer/LICENSE",
     "Hestabit/Week4/day-1/node_modules/safe-buffer/README.md",
     "Hestabit/Week4/day-1/node_modules/safe-buffer/package.json",
@@ -242,7 +242,6 @@
     "Hestabit/Week4/day-1/node_modules/mongoose/README.md",
     "Hestabit/Week4/day-1/node_modules/mongoose/LICENSE.md",
     "Hestabit/Week4/day-1/node_modules/@so-ric/colorspace/README.md",
-    "Hestabit/Week4/day-1/node_modules/@colors/colors/README.md",
     "Hestabit/Week4/day-1/node_modules/kareem/coverage/lcov-report/sort-arrow-sprite.png",
     "Hestabit/Week4/day-1/node_modules/kareem/coverage/lcov-report/favicon.png",
     "Hestabit/Week6/yankedday-2/src/notebooks/plots/importance_mutual_information.png",
