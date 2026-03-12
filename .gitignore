@@ -9,3 +9,28 @@
 /Hestabit/Week4/day-1/.env
 /week6.zip
 
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Env
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model/data artifacts
+*.pkl
+*.png
+certs/
+
+
