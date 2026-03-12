@@ -1,11 +1,3 @@
-Absolutely. Here are two clean Markdown files you can use directly:
-
-* `DAY4-README.md`
-* `DAY5-README.md`
-
-They focus on **how to run, test, and demonstrate** the deliverables.
-
----
 
 # `DAY4-README.md`
 
@@ -92,6 +84,7 @@ Expected output:
 ```text
 Day 4 server running on port 3000
 ```
+chech 
 
 ---
 
