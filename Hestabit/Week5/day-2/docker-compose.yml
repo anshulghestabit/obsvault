@@ -1,13 +1,14 @@
 services:
   client:
-    build: ./client          # Use the Dockerfile instead of a raw image
+    build: ./client
     ports:
-      - "3000:3000"
+      - "4000:3000"
     depends_on:
       - server
     volumes:
-      - ./client:/app        # Sync your code changes
-      - /app/node_modules    # CRITICAL: Prevents host from deleting container dependencies
+      - ./client:/app
+      - /app/node_modules
+
   server:
     build: ./server
     ports:
@@ -24,4 +25,3 @@ services:
 
 volumes:
   mongo-data:
-

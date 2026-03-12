@@ -5,36 +5,56 @@ const productSchema = new mongoose.Schema(
     name: {
       type: String,
       required: true,
-      trim: true,
-      minlength: 2
+      trim: true
     },
     description: {
       type: String,
-      trim: true
+      trim: true,
+      default: ''
     },
     price: {
       type: Number,
       required: true,
-      min: 0,
-      index: true
+      min: 0
     },
-    owner: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
-      required: true
+    category: {
+      type: String,
+      required: true,
+      trim: true,
+      lowercase: true
+    },
+    tags: [
+      {
+        type: String,
+        trim: true,
+        lowercase: true
+      }
+    ],
+    rating: {
+      type: Number,
+      min: 0,
+      max: 5,
+      default: 0
     },
     status: {
       type: String,
       enum: ['active', 'inactive'],
       default: 'active'
-    },
-    tags: {
-      type: [String],
-      default: []
     }
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true }
+  }
 );
+
+productSchema.virtual('ratingLabel').get(function () {
+  if (this.rating >= 4.5) return 'Excellent';
+  if (this.rating >= 3.5) return 'Good';
+  if (this.rating >= 2.5) return 'Average';
+  return 'Low';
+});
 
 productSchema.index({ status: 1, createdAt: -1 });
 

@@ -6,32 +6,24 @@ const userSchema = new mongoose.Schema(
     firstName: {
       type: String,
       required: true,
-      trim: true,
-      minlength: 2
+      trim: true
     },
     lastName: {
       type: String,
       required: true,
-      trim: true,
-      minlength: 2
+      trim: true
     },
     email: {
       type: String,
       required: true,
       unique: true,
       lowercase: true,
-      trim: true,
-      index: true
+      trim: true
     },
     password: {
       type: String,
       required: true,
       minlength: 6
-    },
-    role: {
-      type: String,
-      enum: ['user', 'admin'],
-      default: 'user'
     },
     status: {
       type: String,
@@ -39,7 +31,11 @@ const userSchema = new mongoose.Schema(
       default: 'active'
     }
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true }
+  }
 );
 
 userSchema.virtual('fullName').get(function () {
@@ -47,11 +43,10 @@ userSchema.virtual('fullName').get(function () {
 });
 
 userSchema.pre('save', async function (next) {
-  try {
-    if (!this.isModified('password')) return next();
+  if (!this.isModified('password')) return next();
 
-    const salt = await bcrypt.genSalt(10);
-    this.password = await bcrypt.hash(this.password, salt);
+  try {
+    this.password = await bcrypt.hash(this.password, 10);
     next();
   } catch (error) {
     next(error);

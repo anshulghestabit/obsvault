@@ -1,24 +1,19 @@
 const http = require("http");
-const { MongoClient } = require("mongodb");
 
-const PORT = 5000;
-const MONGO_URL = process.env.MONGO_URL;
+const PORT = 3000;
+const INSTANCE_NAME = process.env.INSTANCE_NAME || "unknown-server";
 
-const server = http.createServer(async (req, res) => {
-  try {
-    const client = new MongoClient(MONGO_URL);
-    await client.connect();
-    await client.close();
-
-    res.writeHead(200);
-    res.end("Connected to MongoDB\n");
-  } catch (err) {
-    res.writeHead(500);
-    res.end("MongoDB connection failed\n");
+const server = http.createServer((req, res) => {
+  if (req.url === "/api") {
+    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.end(`Response from ${INSTANCE_NAME}\n`);
+    return;
   }
+
+  res.writeHead(200, { "Content-Type": "text/plain" });
+  res.end(`Server running: ${INSTANCE_NAME}\n`);
 });
 
 server.listen(PORT, () => {
-  console.log(`API server running on port ${PORT}`);
+  console.log(`${INSTANCE_NAME} running on port ${PORT}`);
 });
-

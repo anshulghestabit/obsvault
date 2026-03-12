@@ -1,21 +1,42 @@
 # Service Architecture
 
 ## Overview
-This application is deployed using Docker Compose and consists of three containerized services.
+This project uses Docker Compose to run a multi-container application with three services:
+
+- **client** → React frontend
+- **server** → Node.js backend API
+- **mongo** → MongoDB database
 
 ## Services
-- Client: React application running inside a Docker container on port 3000
-- Server: Node.js API running inside a Docker container on port 5000
-- Database: MongoDB container for data persistence
+
+### Client
+The client is a React application exposed on port `3000`.
+
+### Server
+The server is a Node.js application exposed on port `5000`.
+It connects to MongoDB using the connection string:
+
+`mongodb://mongo:27017/mydb`
+
+### MongoDB
+MongoDB runs in its own container using the official `mongo:6` image.
 
 ## Networking
-Docker Compose creates a shared network for all services.
-The server connects to MongoDB using the hostname `mongo`.
+Docker Compose creates a default shared network for all services.
+Because of this, the server connects to MongoDB using the service name `mongo` as the hostname.
 
 ## Volumes
-MongoDB uses a named volume (mongo-data) to persist data across container restarts.
+A named volume `mongo-data` is mounted to:
 
-## Startup
-All services are started together using `docker compose up -d`.
-Service dependencies are defined using `depends_on`.
+`/data/db`
 
+This ensures MongoDB data persists across container restarts.
+
+## Logs
+Logs can be viewed using:
+
+```bash
+docker compose logs
+docker compose logs client
+docker compose logs server
+docker compose logs mongo

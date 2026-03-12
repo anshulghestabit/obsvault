@@ -2,65 +2,42 @@ const User = require('../models/User');
 
 class UserRepository {
   async create(data) {
-    try {
-      const user = await User.create(data);
-      return user;
-    } catch (error) {
-      throw error;
-    }
+    return User.create(data);
   }
 
   async findById(id) {
-    try {
-      return await User.findById(id).lean();
-    } catch (error) {
-      throw error;
-    }
+    return User.findById(id);
   }
 
-  async findPaginated(filter = {}, options = {}) {
-    try {
-      const { page = 1, limit = 10, sort = { createdAt: -1 } } = options;
+  async findPaginated(page = 1, limit = 10) {
+    const skip = (page - 1) * limit;
 
-      const skip = (page - 1) * limit;
-
-      const [data, total] = await Promise.all([
-        User.find(filter)
-          .sort(sort)
+    const [data, total] = await Promise.all([
+      User.find({})
+          .sort({ createdAt: -1 })
           .skip(skip)
-          .limit(limit)
-          .lean(),
-        User.countDocuments(filter)
-      ]);
+          .limit(limit),
+      User.countDocuments({})
+    ]);
 
-      return {
-        data,
-        total,
-        page,
-        totalPages: Math.ceil(total / limit)
-      };
-    } catch (error) {
-      throw error;
-    }
+    return {
+      data,
+      total,
+      page,
+      limit,
+      totalPages: Math.ceil(total / limit)
+    };
   }
 
-  async update(id, data) {
-    try {
-      return await User.findByIdAndUpdate(id, data, {
-        new: true,
-        runValidators: true
-      }).lean();
-    } catch (error) {
-      throw error;
-    }
+  async update(id, updateData) {
+    return User.findByIdAndUpdate(id, updateData, {
+      new: true,
+      runValidators: true
+    });
   }
 
   async delete(id) {
-    try {
-      return await User.findByIdAndDelete(id).lean();
-    } catch (error) {
-      throw error;
-    }
+    return User.findByIdAndDelete(id);
   }
 }
 
