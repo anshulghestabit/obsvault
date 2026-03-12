@@ -1,0 +1,19 @@
+{
+  "name": "week4-day3-rest-api",
+  "version": "1.0.0",
+  "description": "Week 4 Day 3 - High-performance REST API and query engine",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Anshul Garg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "info": {
+    "name": "Day 5 Job Queue API",
+    "_postman_id": "c2d0f7f1-1111-2222-3333-day5queue",
+    "description": "Postman collection for Day 5 job queue and tracing API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/health",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "health"]
+        }
+      }
+    },
+    {
+      "name": "Queue Email Job",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"test@example.com\",\n  \"subject\": \"Welcome\",\n  \"message\": \"This is a test email job\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/emails/queue",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "emails", "queue"]
+        }
+      }
+    },
+    {
+      "name": "Queue Email Job With Retry",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"retry@example.com\",\n  \"subject\": \"Retry test\",\n  \"message\": \"Force first attempt to fail\",\n  \"failOnce\": true\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/emails/queue",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "emails", "queue"]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    }
+  ]
+}

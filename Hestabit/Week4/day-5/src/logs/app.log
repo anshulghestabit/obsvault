@@ -1,0 +1,15 @@
+{"level":"info","message":"Day 5 server running on port 3000","timestamp":"2026-03-12T10:21:07.782Z"}
+{"level":"info","message":"Incoming request","method":"GET","path":"/api/health","requestId":"c86abe61-1913-42c5-830e-bc8dc140e1dc","timestamp":"2026-03-12T10:21:20.328Z"}
+{"level":"info","message":"Incoming request","method":"POST","path":"/api/emails/queue","requestId":"114f39a6-925e-48c6-aae6-78cc8a1e290d","timestamp":"2026-03-12T10:21:41.016Z"}
+{"email":"test@example.com","jobId":"1","level":"info","message":"Email job queued","requestId":"114f39a6-925e-48c6-aae6-78cc8a1e290d","timestamp":"2026-03-12T10:21:41.018Z"}
+{"email":"test@example.com","jobId":"1","level":"info","message":"Processing email job","requestId":"114f39a6-925e-48c6-aae6-78cc8a1e290d","subject":"Welcome","timestamp":"2026-03-12T10:21:41.019Z"}
+{"email":"test@example.com","jobId":"1","level":"info","message":"Email job completed","requestId":"114f39a6-925e-48c6-aae6-78cc8a1e290d","timestamp":"2026-03-12T10:21:42.019Z"}
+{"jobId":"1","level":"info","message":"Worker completed job","timestamp":"2026-03-12T10:21:42.021Z"}
+{"level":"info","message":"Incoming request","method":"POST","path":"/api/emails/queue","requestId":"6cee14ef-4bcd-4962-87e9-c25b51523504","timestamp":"2026-03-12T10:21:47.886Z"}
+{"email":"retry@example.com","jobId":"2","level":"info","message":"Email job queued","requestId":"6cee14ef-4bcd-4962-87e9-c25b51523504","timestamp":"2026-03-12T10:21:47.887Z"}
+{"email":"retry@example.com","jobId":"2","level":"info","message":"Processing email job","requestId":"6cee14ef-4bcd-4962-87e9-c25b51523504","subject":"Retry test","timestamp":"2026-03-12T10:21:47.888Z"}
+{"error":"Simulated email failure for retry test","jobId":"2","level":"error","message":"Worker failed job","timestamp":"2026-03-12T10:21:48.890Z"}
+{"email":"retry@example.com","jobId":"2","level":"info","message":"Processing email job","requestId":"6cee14ef-4bcd-4962-87e9-c25b51523504","subject":"Retry test","timestamp":"2026-03-12T10:21:50.904Z"}
+{"email":"retry@example.com","jobId":"2","level":"info","message":"Email job completed","requestId":"6cee14ef-4bcd-4962-87e9-c25b51523504","timestamp":"2026-03-12T10:21:51.904Z"}
+{"jobId":"2","level":"info","message":"Worker completed job","timestamp":"2026-03-12T10:21:51.905Z"}
+{"level":"info","message":"Day 5 server running on port 3000","timestamp":"2026-03-12T10:25:19.758Z"}

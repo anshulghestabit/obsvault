@@ -1,0 +1,80 @@
+# Core utilities
+python-dotenv
+pydantic
+tqdm
+loguru
+rich
+
+# Data
+numpy
+pandas
+scipy
+
+# RAG frameworks
+langchain
+langchain-community
+llama-index
+
+# LLM APIs
+openai
+anthropic
+google-generativeai
+
+# Embeddings
+sentence-transformers
+InstructorEmbedding
+transformers
+accelerate
+
+# Vector databases
+faiss-cpu
+chromadb
+qdrant-client
+
+# Hybrid retrieval
+rank-bm25
+
+# Document processing
+pypdf
+pdfminer.six
+python-docx
+unstructured
+markdown
+
+# Image / multimodal
+pillow
+opencv-python
+pytesseract
+
+# Multimodal models
+torch
+torchvision
+
+# SQL
+sqlalchemy
+duckdb
+
+# Evaluation
+ragas
+scikit-learn
+
+# API / backend
+fastapi
+uvicorn
+pydantic-settings
+
+# UI
+streamlit
+
+# Config
+pyyaml
+
+# Dev tools
+ipython
+jupyter
+
+rich==13.7.1
+pandas==2.3.3
+pyyaml==6.0.1
+
+PyMuPDF

@@ -1,0 +1,17 @@
+transformers
+torch
+accelerate
+sentence-transformers
+faiss-cpu
+fastapi
+uvicorn
+pydantic
+sqlite-utils
+python-dotenv
+numpy
+pandas
+tqdm
+rich
+loguru
+scikit-learn
+aiofiles

@@ -1,0 +1,13 @@
+{
+  "name": "day2-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "mongodb": "^6.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anshulghestabit/obsvault.git"
+  },
+  "private": true
+}
