@@ -1,0 +1,16 @@
+{
+    "best_params": {
+        "model__subsample": 0.8,
+        "model__n_estimators": 300,
+        "model__min_samples_split": 5,
+        "model__min_samples_leaf": 2,
+        "model__max_depth": 3,
+        "model__learning_rate": 0.03
+    },
+    "best_cv_score_r2": 0.8766,
+    "test_metrics": {
+        "mae": 16657.916,
+        "rmse": 27020.9935,
+        "r2": 0.9048
+    }
+}

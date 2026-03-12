@@ -1,0 +1,10 @@
+pandas<3,>=2.2
+numpy
+scikit-learn
+joblib
+matplotlib
+seaborn
+fastapi
+uvicorn
+pydantic
+python-dotenv

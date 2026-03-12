@@ -1,0 +1,41 @@
+{
+    "best_model": "GradientBoostingRegressor",
+    "results": {
+        "LinearRegression": {
+            "model_name": "LinearRegression",
+            "cv_mae_mean": 19473.1266,
+            "cv_rmse_mean": 36061.484,
+            "cv_r2_mean": 0.7733,
+            "test_mae": 18360.6798,
+            "test_rmse": 29746.8155,
+            "test_r2": 0.8846
+        },
+        "Ridge": {
+            "model_name": "Ridge",
+            "cv_mae_mean": 18549.0867,
+            "cv_rmse_mean": 32465.2672,
+            "cv_r2_mean": 0.8181,
+            "test_mae": 18591.0004,
+            "test_rmse": 28929.2489,
+            "test_r2": 0.8909
+        },
+        "RandomForestRegressor": {
+            "model_name": "RandomForestRegressor",
+            "cv_mae_mean": 18167.616,
+            "cv_rmse_mean": 30262.4627,
+            "cv_r2_mean": 0.844,
+            "test_mae": 17535.0081,
+            "test_rmse": 28817.1264,
+            "test_r2": 0.8917
+        },
+        "GradientBoostingRegressor": {
+            "model_name": "GradientBoostingRegressor",
+            "cv_mae_mean": 16092.1603,
+            "cv_rmse_mean": 27972.2048,
+            "cv_r2_mean": 0.8634,
+            "test_mae": 16824.888,
+            "test_rmse": 27633.1669,
+            "test_r2": 0.9004
+        }
+    }
+}
