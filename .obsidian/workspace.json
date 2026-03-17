@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Hestabit/Week6/week6.pdf"
+                "file": "Hestabit/Week7/Week-7-1766484412108-1771393003741.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "week6"
+              "title": "Week-7-1766484412108-1771393003741"
             }
           }
         ]
@@ -207,6 +207,10 @@
   },
   "active": "21a64175a8060900",
   "lastOpenFiles": [
+    "Hestabit/Week8/Week-8-1770875556079-1771998320983.pdf",
+    "Hestabit/Week7/Week-7-1766484412108-1771393003741.pdf",
+    "Excalidraw/Drawing 2026-01-07 16.38.49.excalidraw.md",
+    "Hestabit/Week6/week6.pdf",
     "Hestabit/Week8/week8.pdf",
     "Hestabit/Welcome.md",
     "Hestabit/Week4/day-1/node_modules/safe-buffer/LICENSE",
@@ -218,8 +222,6 @@
     "Hestabit/Week4/day-1/node_modules/raw-body/README.md",
     "Hestabit/Week4/day-1/node_modules/raw-body/package.json",
     "Hestabit/Week4/day-1/node_modules/raw-body/LICENSE",
-    "Hestabit/Week4/day-1/node_modules/raw-body/index.js",
-    "Hestabit/Week4/day-1/node_modules/raw-body/index.d.ts",
     "Hestabit/Week4/day-1/node_modules/punycode/README.md",
     "Hestabit/Week4/day-1/node_modules/kuler/README.md",
     "Hestabit/Week4/day-1/node_modules/hasown/README.md",
@@ -241,7 +243,6 @@
     "Hestabit/Week4/day-1/node_modules/mongoose/SECURITY.md",
     "Hestabit/Week4/day-1/node_modules/mongoose/README.md",
     "Hestabit/Week4/day-1/node_modules/mongoose/LICENSE.md",
-    "Hestabit/Week4/day-1/node_modules/@so-ric/colorspace/README.md",
     "Hestabit/Week4/day-1/node_modules/kareem/coverage/lcov-report/sort-arrow-sprite.png",
     "Hestabit/Week4/day-1/node_modules/kareem/coverage/lcov-report/favicon.png",
     "Hestabit/Week6/yankedday-2/src/notebooks/plots/importance_mutual_information.png",

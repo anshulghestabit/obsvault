@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Day 5 Production App</title>
+</head>
+<body>
+<h1>Day 5 Production App</h1>
+<p id="output">Loading...</p>
+
+<script>
+    fetch("/api")
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById("output").innerText = data.message;
+        })
+        .catch(() => {
+            document.getElementById("output").innerText = "Failed to connect";
+        });
+</script>
+</body>
+</html>
