@@ -1,0 +1,61 @@
+
+# local env / IDE
+.env
+.venv/
+**/.idea/
+
+# workspace/local app state
+.obsidian/workspace.json
+.obsidian/graph.json
+
+# deps / caches
+**/node_modules/
+**/__pycache__/
+*.pyc
+
+# generated logs/output
+**/logs/
+**/output/
+dump/
+
+# data/model/vector artifacts
+*.db
+*.bin
+*.index
+*.pkl
+*.gguf
+
+# local/generated json
+**/CHAT-LOGS.json
+**/*postman_environment.json
+**/node_modules/
+*.safetensors
+*.jsonl
+*.faiss
+Hestabit/Week7/src/data/chunks/
+Hestabit/Week7/src/vectorstore/
+Hestabit/Week9/day-5/models/
+**/node_modules/
+**/.idea/
+.obsidian/workspace.json
+.obsidian/graph.json
+Excalidraw/
+
+*.safetensors
+*.faiss
+*.arrow
+*.gguf
+*.db
+*.bin
+*.pkl
+*.index
+
+Hestabit/Week7/src/data/chunks/
+Hestabit/Week7/src/data/cleaned/
+Hestabit/Week7/src/vectorstore/
+Hestabit/Week8/adapters/
+Hestabit/Week8/raw_data/
+Hestabit/Week8/quantized/
+Hestabit/Week9/day-5/models/
+Hestabit/Week9/day-5/logs/
+Hestabit/Week9/day-5/output/
