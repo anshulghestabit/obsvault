@@ -1,0 +1,6 @@
+autogen-agentchat
+autogen-ext[openai]
+faiss-cpu
+sentence-transformers
+python-dotenv
+numpy

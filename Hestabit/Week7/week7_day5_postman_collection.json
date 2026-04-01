@@ -1,0 +1,189 @@
+{
+  "info": {
+    "_postman_id": "d543ac91-326c-4d39-8ce2-220959fe0355",
+    "name": "Week7 Day5 Capstone API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "OpenAI"
+  },
+  "item": [
+    {
+      "name": "Healthcheck",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ask - Text RAG",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"session_id\": \"demo-session-1\",\n  \"query\": \"annual report strategy\",\n  \"top_k\": 5,\n  \"filters\": null\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/ask",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "ask"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ask - Text RAG (with filters)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"session_id\": \"demo-session-2\",\n  \"query\": \"annual report strategy\",\n  \"top_k\": 5,\n  \"filters\": {\n    \"year\": \"2022\",\n    \"type\": \"report\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/ask",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "ask"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ask Image - Text to Image",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"session_id\": \"demo-session-3\",\n  \"mode\": \"text-to-image\",\n  \"query\": \"diagram\",\n  \"image_path\": null,\n  \"top_k\": 5\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/ask-image",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "ask-image"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ask Image - Image to Image",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"session_id\": \"demo-session-4\",\n  \"mode\": \"image-to-image\",\n  \"query\": null,\n  \"image_path\": \"src/data/raw_images/sample.png\",\n  \"top_k\": 5\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/ask-image",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "ask-image"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ask Image - Image to Text",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"session_id\": \"demo-session-5\",\n  \"mode\": \"image-to-text\",\n  \"query\": null,\n  \"image_path\": \"src/data/raw_images/sample.png\",\n  \"top_k\": 3\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/ask-image",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "ask-image"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ask SQL",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"session_id\": \"demo-session-6\",\n  \"question\": \"Show total sales by artist for 2023\",\n  \"db_path\": \"src/data/sql/your.db\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/ask-sql",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "ask-sql"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "memory_id": 3,
+    "category": "preference",
+    "source_turn_id": "37364b32-f459-4e5d-ad85-bb9a2c4602fc",
+    "content_preview": "my preferred stack is LM Studio with AutoGen"
+  },
+  {
+    "memory_id": 6,
+    "category": "semantic",
+    "source_turn_id": "d11f4ee7-488c-45a2-b232-88f9f7addab4",
+    "content_preview": "fact text"
+  },
+  {
+    "memory_id": 9,
+    "category": "project",
+    "source_turn_id": "601b4e3f-9817-41a0-b9bd-5e7b5e514767",
+    "content_preview": "working on training task"
+  },
+  {
+    "memory_id": 10,
+    "category": "tool",
+    "source_turn_id": "601b4e3f-9817-41a0-b9bd-5e7b5e514767",
+    "content_preview": "using Microsoft Autogen"
+  },
+  {
+    "memory_id": 11,
+    "category": "project",
+    "source_turn_id": "601b4e3f-9817-41a0-b9bd-5e7b5e514767",
+    "content_preview": "goal is to create Memory Orchestrator"
+  }
+]

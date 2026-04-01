@@ -1,0 +1,20 @@
+[
+  {
+    "memory_id": 3,
+    "category": "semantic",
+    "source_turn_id": "193d2985-88e9-46e7-84f5-d2afcb62c24e",
+    "content_preview": "preference | semantic=personal_name"
+  },
+  {
+    "memory_id": 6,
+    "category": "semantic",
+    "source_turn_id": "201196b4-afc9-492b-98f2-8856a76c1cb4",
+    "content_preview": "preference"
+  },
+  {
+    "memory_id": 9,
+    "category": "semantic",
+    "source_turn_id": "78dcec89-4be1-4ede-829b-ac5bbcc4ea0b",
+    "content_preview": "project"
+  }
+]

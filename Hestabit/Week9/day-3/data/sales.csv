@@ -1,0 +1,13 @@
+date,region,product,units,unit_price
+2026-01-01,North,Laptop,5,700
+2026-01-02,South,Mouse,20,20
+2026-01-03,East,Keyboard,12,35
+2026-01-04,West,Laptop,3,700
+2026-01-05,North,Monitor,4,180
+2026-01-06,South,Laptop,6,700
+2026-01-07,East,Mouse,25,20
+2026-01-08,West,Keyboard,10,35
+2026-01-09,North,Laptop,2,700
+2026-01-10,South,Monitor,5,180
+2026-01-11,East,Laptop,4,700
+2026-01-12,West,Mouse,18,20

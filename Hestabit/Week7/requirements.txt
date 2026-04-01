@@ -1,0 +1,9 @@
+faiss-cpu
+sentence-transformers
+pypdf
+pandas
+numpy
+tqdm
+pyyaml
+python-docx
+rank-bm25

@@ -1,0 +1,20 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: DockerFiles/Backend/Dockerfile
+    container_name: medical-llm-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_PATH=/app/model.gguf
+
+  ui:
+    build:
+      context: .
+      dockerfile: DockerFiles/UI/Dockerfile
+    container_name: medical-llm-ui
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend

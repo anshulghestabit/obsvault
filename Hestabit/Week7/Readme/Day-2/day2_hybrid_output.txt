@@ -1,0 +1,339 @@
+
+Query: annual report strategy
+==========================================================================================
+
+Candidate 1
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.9969
+Semantic     : None
+Keyword      : 6.996933881712081
+Chunk ID     : 5bb5f71d1457f3272adab97d64a79c300da75cea_md_chunk_219
+Source       : 5bb5f71d1457f3272adab97d64a79c300da75cea.md
+Doc Type     : markdown
+Chunk Index  : 219
+Metadata     : {'source': '5bb5f71d1457f3272adab97d64a79c300da75cea.md', 'doc_type': 'markdown', 'year': '2022', 'type': 'report'}
+Text:
+terms of Company performance and<br>quantums during 2022, supporting the delivery of our strategy and another exceptional year for<br>AstraZeneca. | | Alignment to culture<br>Incentive schemes should drive behaviours consistent with<br>company purpose, values and strategy. | The Committee believes that the remuneration structures in place are aligned to the Company's culture<br>and values and ensure the successful delivery of our strategy, with alignment between strategy and<br>reward set out on page 109. For example, alongside the formulaic outcome, our annual bonus scheme<br>for Executive Directors includes a holistic assessment of their performance and broader ESG factors,<br>further rein
+... [truncated]
+
+Candidate 2
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.9560
+Semantic     : None
+Keyword      : 6.955989389964159
+Chunk ID     : ded965ce7e3ea0ad9b83272b8c36f529793a2887_pdf_chunk_0
+Source       : ded965ce7e3ea0ad9b83272b8c36f529793a2887.pdf
+Doc Type     : pdf
+Chunk Index  : 0
+Metadata     : {'source': 'ded965ce7e3ea0ad9b83272b8c36f529793a2887.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+w
+w
+Playtech plc Annual Report and Financial Statements 2022
+
+Sustainable Success pillars
+Our strategic roadmap
+Our purpose
+To create technology that changes the way 
+people experience gambling entertainment
+Our strategy
+B2B: B2C:
+Be the partner 
+of choice for 
+newly regulating 
+markets
+Capitalise on 
+Live and SaaS 
+opportunities
+Realign 
+resources to 
+reflect B2B 
+growth areas
+Read more about our strategy on pages 12 to 15
+Leverage retail 
+presence to 
+grow Snaitech’s 
+online business
+Optimise 
+HAPPYBET for 
+online
+Targeted M&A 
+to expand 
+Snaitech
+1 2 3 4 5 6
+Read more about our sustainability strategy on page 46 to 77
+Pioneering safer 
+gambling solutions
+Promoting integrity and 
+an inclus
+... [truncated]
+
+Candidate 3
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.9048
+Semantic     : None
+Keyword      : 6.904832594274359
+Chunk ID     : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_105
+Source       : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf
+Doc Type     : pdf
+Chunk Index  : 105
+Metadata     : {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2023', 'type': 'policy'}
+Text:
+focus on modernisation, operational excellence and delivery, while remaining flexible to respond to the ever-changing economic climate and inflationary environment. Looking forward, the Committee remains focused on supporting the Group to achieve a significant improvement in performance and on continuing to operate with rigor and transparency. I hope you find this report clear and useful in explaining our approach to remuneration. If you have any questions on the policy or the report, please contact me through the Group General Counsel & Company Secretary. Kath Durrant Chair of the Remuneration Committee 7 March 2023 104 SIG Annual Report and Accounts 2022
+
+How do our incentive performance m
+... [truncated]
+
+Candidate 4
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.8747
+Semantic     : None
+Keyword      : 6.874652867258782
+Chunk ID     : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_71
+Source       : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf
+Doc Type     : pdf
+Chunk Index  : 71
+Metadata     : {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2023', 'type': 'report'}
+Text:
+Inc (USA), and President of Henkel Ecolab, Teroson Gmbh, Henkel Adhesives (Germany), and Chairman of SAIM (France). Bruno is a Knight of the Legion d’Honneur (France). Key strengths Deep industrial knowledge, corporate transactions, extensive experience in driving and overseeing improved company performance. Committee key A Audit & Risk Committee R Remuneration Committee N Nominations Committee Chair of Committee I Independent Director 1. Independent on appointment. 2. Christian will not be seeking re-election at the 2023 AGM. CD&R is entitled to appoint a director to replace him. A R N NI 71SIG Annual Report and Accounts 2022 Strategic report Governance Financials
+
+Link to strategyLink to s
+... [truncated]
+
+Candidate 5
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.8711
+Semantic     : None
+Keyword      : 6.871067011596088
+Chunk ID     : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_72
+Source       : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf
+Doc Type     : pdf
+Chunk Index  : 72
+Metadata     : {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+full-year Annual Report and Accounts. − Approved the release of public announcements in line with the Disclosure and Transparency Rules, UK Market Abuse Regulation and other requirements. − Received regular investor relations reports as well as regular updates from brokers on market conditions and equity investor sentiment. − Received regular updates and reports from the sustainability committee. − Appointed Investec to act as joint broker alongside Peel Hunt. Strategy and financing Corporate reporting and performance monitoring Our strategic pillars Responsible actions Valuable partnerships Specialist expertise Superior service Focused growth Highest productivity Winning branches 72 SIG Ann
+... [truncated]
+
+Candidate 6
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.8203
+Semantic     : None
+Keyword      : 6.820265118514897
+Chunk ID     : 2e315764be39701457b88c23f70c5ddede4b2453_pdf_chunk_43
+Source       : 2e315764be39701457b88c23f70c5ddede4b2453.pdf
+Doc Type     : pdf
+Chunk Index  : 43
+Metadata     : {'source': '2e315764be39701457b88c23f70c5ddede4b2453.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+on the Scheme website Link to strategy • The Glide Path to Green will underpin the strategic approach and initiatives that will support the development of the long-term customer proposition • Fulfilling unmet needs is a core component of the strategy, which includes exploring new products and services • MO has produced its first Sustainability Report which will be published in December 2022 * Net assessment incorporates mitigating controls. Key Low Medium High Very high Increasing Stable Decreasing Motability Operations Group plc | Annual Report and Accounts 2022 54 Risk continued 11. Transformation risk Net impact* Net likelihood* Risk status
+
+Failure to effectively manage and deliver strat
+... [truncated]
+
+Candidate 7
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.7842
+Semantic     : None
+Keyword      : 6.784220206565493
+Chunk ID     : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_md_chunk_97
+Source       : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.md
+Doc Type     : markdown
+Chunk Index  : 97
+Metadata     : {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.md', 'doc_type': 'markdown', 'year': '2021', 'type': 'report'}
+Text:
+as a going concern and viability. - − Approved the 2021 full-year and 2022 interim results, and ensured work was on schedule for the production of the 2022 full-year Annual Report and Accounts. - − Approved the release of public announcements in line with the Disclosure and Transparency Rules, UK Market Abuse Regulation and other requirements. - − Received regular investor relations reports as well as regular updates from brokers on market conditions and equity investor sentiment. - − Received regular updates and reports from the sustainability committee. - − Appointed Investec to act as joint broker alongside Peel Hunt.
+
+# Link to strategy Link to strategy
+
+![](_page_73_Picture_28.jpeg)
+
+| 
+... [truncated]
+
+Candidate 8
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.7822
+Semantic     : None
+Keyword      : 6.782188182738325
+Chunk ID     : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_106
+Source       : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf
+Doc Type     : pdf
+Chunk Index  : 106
+Metadata     : {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'policy'}
+Text:
+Committee looks for evidence of a positive health and safety culture including visible leadership, sufficient resources, effective reporting and follow-up, employee feedback, and improvements in metrics  RSP Measures Link to strategy Link to KPls General underpin • Focus on long-term sustainable performance, including our ESG strategy and sustainability commitments • Allows overall performance of the Group, individual performance and wider Group considerations such as the level of employee and customer engagement to be taken into account   Shareholding guidelines • Linked to shareholder value  Our strategic pillars 105SIG Annual Report and Accounts 2022 Strategic report Governance Financ
+... [truncated]
+
+Candidate 9
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.7550
+Semantic     : None
+Keyword      : 6.754966142963124
+Chunk ID     : c5fc5890205fe5326d690fc017f7153fb09924e4_pdf_chunk_94
+Source       : c5fc5890205fe5326d690fc017f7153fb09924e4.pdf
+Doc Type     : pdf
+Chunk Index  : 94
+Metadata     : {'source': 'c5fc5890205fe5326d690fc017f7153fb09924e4.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+or stood down from The Board or Board Committee during the year only the number of meetings following appointment or before standing down are shown. Board discussions during the year At each scheduled meeting The Board receives reports from the Chief Executive Officer and Group Finance Director on the performance and results of the Group and also receives reports from the Chief Underwriting Officer and the Chief Risk Officer and the Chairs of Board Committees. In addition, The Board receives updates on operational matters, strategy and business planning, major projects and corporate governance. www.beazley.com Beazley | Annual report 2022 83
+
+Governance Framework
+continued
+There is an annual
+... [truncated]
+
+Candidate 10
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.7448
+Semantic     : None
+Keyword      : 6.744769462519438
+Chunk ID     : 67185fca2a09b3c46ee961b2c1ae160dab8b5231_pdf_chunk_5
+Source       : 67185fca2a09b3c46ee961b2c1ae160dab8b5231.pdf
+Doc Type     : pdf
+Chunk Index  : 5
+Metadata     : {'source': '67185fca2a09b3c46ee961b2c1ae160dab8b5231.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+Proposition. • Talent acquisition strategy. • Reward and incentives. • Onboarding and development. Marketing and brand strategy. 1 Throughout this Annual Report we also refer to clients and candidates collectively as customers. 2 Peer group reflects top two to four listed peers in each region. 3 See Alternative performance measures note for details on applied methodology, pages 244 to 247. Our vision: T o be the #1 STEM talent provider in the best STEM markets See Strategic overview, page 34 See Stakeholder engagement, page 98 See Key performance measures, page 80 Annual Report and Accounts 2022 P-09P-08 SThree plc sthree.com
+
+Strategic 
+Report
+The Strategic Report from page 10 to page 117 w
+... [truncated]
+
+Candidate 11
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.7269
+Semantic     : None
+Keyword      : 6.726868317577059
+Chunk ID     : c74139ce26a6f803725f5074a8a0f539abb99c09_pdf_chunk_0
+Source       : c74139ce26a6f803725f5074a8a0f539abb99c09.pdf
+Doc Type     : pdf
+Chunk Index  : 0
+Metadata     : {'source': 'c74139ce26a6f803725f5074a8a0f539abb99c09.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+FROM OUR PAST INTO 
+THE COUNTRY’S FUTURE
+ANNUAL REPORT 
+2022
+
+FROM OUR PAST INTO 
+THE COUNTRY’S FUTURE
+ANNUAL REPORT 
+2022
+Translation from the Italian original which remains the definitive version.
+SCAN THE QR CODE
+AND WATCH THE VIDEO.
+
+4
+1
+INDEX
+GENERAL
+REPORT ON OPERATIONS
+AT 31 DECEMBER 2022
+1. Introduction 8
+2. Highlights 18
+3. Outlook 33
+4. Business Model 35
+5. Strategy 106
+6. Risks and opportunities 136
+7. Creation of Value 188
+8. Summary of the resolutions of the ordinary Shareholders’ Meeting 
+and other information 432
+9. Consolidated non-financial statement 451
+10. Glossary 481
+
+POSTE ITALIANE’S 
+FINANCIAL STATEMENTS
+REPORTS AND ATTESTATIONS
+AT 31 DECEMBER 2022
+488
+934
+2
+3
+1. Intro
+... [truncated]
+
+Candidate 12
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.7218
+Semantic     : None
+Keyword      : 6.721799648697445
+Chunk ID     : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_21
+Source       : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf
+Doc Type     : pdf
+Chunk Index  : 21
+Metadata     : {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2020', 'type': 'report'}
+Text:
+and development and health, safety and wellbeing. Link to strategy Link to risks − Health and safety − Attract, recruit and retain our people − Environmental, social and governance Link to remuneration Employee engagement progress forms part of the personal objectives of senior management. Lost time injury frequency rate GHG emissions per £m of revenue (metric tonnes) Net Promoter Score (NPS) Employee engagement result (eNPS) 11.1 17.5 +46 +14 2020 2021 2022 12.7 11.8 11.1 2020 2021 2022 25.4 23.0 17.5 2020 2021 2022 (5) +3 +14 2020 2021 2022 +43 +40 +46 24 SIG Annual Report and Accounts 2022
+
+Financial KPIs
+Definition
+The growth/(decline) in sales 
+per day (in constant currency) 
+excluding 
+... [truncated]
+
+Candidate 13
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.6928
+Semantic     : None
+Keyword      : 6.692762421465031
+Chunk ID     : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_42
+Source       : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf
+Doc Type     : pdf
+Chunk Index  : 42
+Metadata     : {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2023', 'type': 'report'}
+Text:
+while the money donated to Rainy Day Trust is providing immediate financial support for individuals and families in the construction industry who find themselves simply unable to manage. The gala event, which included fire-eating, aerial acrobatics and cabaret performances, was made a success through the generous support of hundreds of SIG’s suppliers. It was the culmination of a fundraising year which had seen numerous events taking place throughout the organisation at individual branches and offices. The SIG Fundraising Committee has set the ambitious target of increasing the fundraising total even further in 2023. 44 SIG Annual Report and Accounts 2022
+
+Governance 
+Our full governance rep
+... [truncated]
+
+Candidate 14
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.6792
+Semantic     : None
+Keyword      : 6.679185221958653
+Chunk ID     : c5fc5890205fe5326d690fc017f7153fb09924e4_pdf_chunk_24
+Source       : c5fc5890205fe5326d690fc017f7153fb09924e4.pdf
+Doc Type     : pdf
+Chunk Index  : 24
+Metadata     : {'source': 'c5fc5890205fe5326d690fc017f7153fb09924e4.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+Boards mirror those set out at a plc Board level, and ensure the subsidiary company is operating in accordance with both legal and regulatory requirements and relevant Beazley Group policies and procedures. These entities are more insurance-risk-focused than the plc Board, and therefore the impact of climate-related risk on underwriting is considered in greater detail at these Boards. The subsidiary Boards consider climate-related matters as part of the annual process to approve the risk framework and ORSA. Further updates on climate-related matters are also provided throughout the year, via the Responsible Business report. www.beazley.com Beazley | Annual report 2022 29
+
+TCFD 2022 continued
+... [truncated]
+
+Candidate 15
+------------------------------------------------------------------------------------------
+Method       : keyword
+Combined     : 6.6684
+Semantic     : None
+Keyword      : 6.668388759926205
+Chunk ID     : c5fc5890205fe5326d690fc017f7153fb09924e4_pdf_chunk_16
+Source       : c5fc5890205fe5326d690fc017f7153fb09924e4.pdf
+Doc Type     : pdf
+Chunk Index  : 16
+Metadata     : {'source': 'c5fc5890205fe5326d690fc017f7153fb09924e4.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+in future business areas and to pull back on some of our most respected classes of business if the rating environment is wrong. However, this mantra is key to our strategy of growing in a smart, sustainable way. Bob Quane Chief Underwriting Officer www.beazley.com Beazley | Annual report 2022 17 Performance by division Growth across all of our divisions, with two divisions growing in double digits. Growth of managed gross premiums written by division $m 18 Beazley | Annual report 2022 www.beazley.com www.beazley.com Beazley | Annual report 2022 19 Performance by division continued 20 Beazley | Annual report 2022 www.beazley.com
+
+Responsible Business
+Our vision is to be the highest performing
+... [truncated]

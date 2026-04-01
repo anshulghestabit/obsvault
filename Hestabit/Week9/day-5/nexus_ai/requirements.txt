@@ -1,0 +1,10 @@
+autogen-core
+autogen-ext[openai]
+openai
+python-dotenv
+faiss-cpu
+sentence-transformers
+numpy
+pandas
+fastapi
+uvicorn[standard]

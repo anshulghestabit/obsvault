@@ -1,0 +1,556 @@
+
+Query:
+annual report strategy
+
+Filters:
+{}
+
+Sources:
+[
+  {
+    "chunk_id": "2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_105",
+    "source": "2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf",
+    "doc_type": "pdf",
+    "chunk_index": 105,
+    "retrieval_method": "keyword",
+    "combined_score": 6.904832594274359,
+    "rerank_score": 0.47026097774505615,
+    "metadata": {
+      "source": "2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf",
+      "doc_type": "pdf",
+      "year": "2023",
+      "type": "policy"
+    }
+  },
+  {
+    "chunk_id": "c5fc5890205fe5326d690fc017f7153fb09924e4_pdf_chunk_94",
+    "source": "c5fc5890205fe5326d690fc017f7153fb09924e4.pdf",
+    "doc_type": "pdf",
+    "chunk_index": 94,
+    "retrieval_method": "keyword",
+    "combined_score": 6.754966142963124,
+    "rerank_score": 0.4577416479587555,
+    "metadata": {
+      "source": "c5fc5890205fe5326d690fc017f7153fb09924e4.pdf",
+      "doc_type": "pdf",
+      "year": "2022",
+      "type": "report"
+    }
+  },
+  {
+    "chunk_id": "c5fc5890205fe5326d690fc017f7153fb09924e4_pdf_chunk_16",
+    "source": "c5fc5890205fe5326d690fc017f7153fb09924e4.pdf",
+    "doc_type": "pdf",
+    "chunk_index": 16,
+    "retrieval_method": "keyword",
+    "combined_score": 6.668388759926205,
+    "rerank_score": 0.4508897662162781,
+    "metadata": {
+      "source": "c5fc5890205fe5326d690fc017f7153fb09924e4.pdf",
+      "doc_type": "pdf",
+      "year": "2022",
+      "type": "report"
+    }
+  },
+  {
+    "chunk_id": "c74139ce26a6f803725f5074a8a0f539abb99c09_pdf_chunk_0",
+    "source": "c74139ce26a6f803725f5074a8a0f539abb99c09.pdf",
+    "doc_type": "pdf",
+    "chunk_index": 0,
+    "retrieval_method": "keyword",
+    "combined_score": 6.726868317577059,
+    "rerank_score": 0.3937543034553528,
+    "metadata": {
+      "source": "c74139ce26a6f803725f5074a8a0f539abb99c09.pdf",
+      "doc_type": "pdf",
+      "year": "2022",
+      "type": "report"
+    }
+  },
+  {
+    "chunk_id": "2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_71",
+    "source": "2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf",
+    "doc_type": "pdf",
+    "chunk_index": 71,
+    "retrieval_method": "keyword",
+    "combined_score": 6.874652867258782,
+    "rerank_score": 0.44792667031288147,
+    "metadata": {
+      "source": "2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf",
+      "doc_type": "pdf",
+      "year": "2023",
+      "type": "report"
+    }
+  }
+]
+
+Context:
+
+
+[Context 1]
+Chunk ID: 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_105
+Source: 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf
+Doc Type: pdf
+Metadata: {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2023', 'type': 'policy'}
+Text:
+focus on modernisation, operational excellence and delivery, while remaining flexible to respond to the ever-changing economic climate and inflationary environment. Looking forward, the Committee remains focused on supporting the Group to achieve a significant improvement in performance and on continuing to operate with rigor and transparency. I hope you find this report clear and useful in explaining our approach to remuneration. If you have any questions on the policy or the report, please contact me through the Group General Counsel & Company Secretary. Kath Durrant Chair of the Remuneration Committee 7 March 2023 104 SIG Annual Report and Accounts 2022
+
+How do our incentive performance measures align to our purpose and strategy?
+In executing our strategy, we aim to focus on recovering and enhancing value for shareholders and all other stakeholders. As set out in 
+our remuneration policy, the RSP does not have a primary set of performance targets but operates a general underpin on vesting, allowing 
+the Committee to review holistically the overall performance of the Group, individual performance, and wider Group considerations. In addition, 
+we continually consider the performance measures we use for the annual bonus incentives to ensure they support the delivery of our strategy.
+Our purpose To enable modern, sustainable and safe living and working environments in the communities in which we operate.
+Responsible 
+actions
+• Our people feel 
+safe, proud and 
+valued
+• A greener fleet 
+and estate
+• Positive 
+community 
+impact
+Winning 
+branches
+• Local teams 
+trusted and 
+empowered 
+to succeed
+• Differentiated 
+through 
+expertise, 
+proximity and 
+service
+Superior 
+service
+• Agile and 
+entrepreneurial 
+sales teams
+• Omnichannel, 
+data-rich 
+customer 
+journey
+Specialist 
+expertise
+• Known for 
+specialist focus 
+and technical 
+knowledge
+• Advice to 
+optimise cost, 
+performance 
+and carbon
+Valuable 
+partnerships
+• Win-win 
+strategies with 
+suppliers
+• Supporting 
+suppliers’ and 
+customers’ 
+sustainability 
+goals
+Highest 
+productivity
+• Digitalising 
+operational 
+processes
+• Lean and 
+effective 
+governance
+Focused 
+growth
+• Growing energy 
+efficient and 
+low-carbon 
+solutions
+• Expanding 
+branch network
+• Acquisitions
+Our key performance indicators
+Like-for-
+like sales
+Gross 
+margin 
+Operating 
+margin
+Average trade 
+working capital 
+to sales ratio
+LTIFR NPS GHG emissions 
+per £m of 
+revenue
+eNPS
+Annual bonus
+Measures Link to strategy Link to KPls
+Underlying operating profit • Focus on growth in sales and returns
+• Key measure of organic growth
+• Linked to shareholder value
+
+
+
+Average net debt 
+Working capital
+• Focus on operational efficiency
+• Focus on sustainable investment
+• Linked to shareholder value
+
+
+
+Strategic objectives • Strategic objectives and targets for the bonus are commercially sensitive and will be 
+disclosed retrospectively
+
+Health and safety override • All employees, customers and suppliers should be able to work in a safely managed 
+environment across every part of the Group. The Committee looks for evidence of 
+a positive health and safety culture including visible leadership, sufficient resources, 
+effective reporting and follow-up, employee feedback, and improvements in metrics
+
+RSP
+Measures Link to strategy Link to KPls
+General underpin • Focus on long-term sustainable performance, including our ESG strategy and 
+sustainability commitments
+• Allows overall performance of the Group, individual performance and wider Group 
+considerations such as the level of employee and customer engagement to be taken 
+into account
+ 
+
+Shareholding guidelines • Linked to shareholder value 
+Our strategic pillars
+105SIG Annual Report and Accounts 2022
+Strategic report Governance Financials
+
+--------------------------------------------------------------------------------
+
+[Context 2]
+Chunk ID: c5fc5890205fe5326d690fc017f7153fb09924e4_pdf_chunk_94
+Source: c5fc5890205fe5326d690fc017f7153fb09924e4.pdf
+Doc Type: pdf
+Metadata: {'source': 'c5fc5890205fe5326d690fc017f7153fb09924e4.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+or stood down from The Board or Board Committee during the year only the number of meetings following appointment or before standing down are shown. Board discussions during the year At each scheduled meeting The Board receives reports from the Chief Executive Officer and Group Finance Director on the performance and results of the Group and also receives reports from the Chief Underwriting Officer and the Chief Risk Officer and the Chairs of Board Committees. In addition, The Board receives updates on operational matters, strategy and business planning, major projects and corporate governance. www.beazley.com Beazley | Annual report 2022 83
+
+Governance Framework
+continued
+There is an annual schedule of rolling agenda items to ensure that all matters are given due consideration and are reviewed at 
+the appropriate point in the financial and regulatory cycles. Meetings are structured to ensure that there is sufficient time for 
+consideration and debate of all matters. During the year, The Board has spent time on the following key areas:
+For further information, see:
+Strategy
+• 2023 business plans and budgets Financial review (page 58)
+• Medium and long-term plans Financial review (page 58)
+• Responsible business strategy, including a net zero strategy and joining the Net Zero Alliance, 
+United Nations Global Compact initiative and the Terra Carta Sustainable Markets Intiative
+• Oversight of key strategic projects
+• Equity raise
+Responsible business (page 21)
+Responsible business report (www.beazley.com)
+Section 172 statement (page 55)
+Directors’ report (page 140)
+Performance
+• Capital position/allocation and the dividend policy Capital structure (page 64)
+Dividends (page 95)
+• 2021 preliminary results and annual report and accounts 2022 interim results and trading updates
+• Implementation of IFRS 17
+Interim results (www.beazley.com)
+Financial review (page 58)
+• Business performance reports including underwriting and investments from the Chief Underwriting 
+Officer and Chief Investment Officer respectively
+• Impact of economic and social inflation including on financial performance and actuarial reserving
+Chief Executive Officer's statement (page 11)
+Chief Underwriting Officer's report (page 13)
+Financial review (page 58)
+• Regular dashboard and milestone reports Key performance indicators (page 2)
+• Dividend proposals Dividends (page 95)
+• Ongoing investment in operational infrastructure Section 172 statement (page 55)
+Culture & people
+• New corporate brand and strategy Chief Executive Officer's statement (page 11)
+• Share plan rule amendments, including the LTIP, deferred plan and UK SAYE plan Directors’ remuneration report (page 111)
+• Talent development and succession planning Nomination Committee (page 100)
+• Inclusion and diversity updates Nomination Committee (page 100)
+Directors' report (page 140)
+• Employee engagement and staff surveys Stakeholder engagement (page 50)
+• Issues impacting employees, including the cost of living crisis Chief Executive Officer's statement (page 11)
+Stakeholder engagement (page 50)
+Governance & risk
+• Changes to the composition of The Board, in particular the appointment of a new Chair Board of Directors (page 77)
+Nomination Committee (page 100)
+• The impact of the war in Ukraine, including the implementation of Russian sanctions Chief Executive Officer's statement (page 11)
+• Board and Committee evaluations Board evaluation (page 88)
+• Cyber Risks including threats to the business from cyber attacks, and review of lessons learned 
+from attempted attacks 
+• Review of threats and opportunities to the business model from cyber risks
+• Cyber systemic risk adjustments
+Chief Executive Officer's statement (page 11)
+Chief Underwriting Officer's report (page 13)
+• Risk management framework, including risk appetite, risk governance and the Own Risk and 
+Solvency Assessment
+Risk management & compliance (page 67)
+Audit & Risk Committee (page 91)
+• Legal and regulatory compliance including UK Corporate Governance Code, Companies Act and 
+listed company obligations
+Statement of corporate governance (page 75)
+Stakeholder engagement
+• Engagement with the workforce, including employee voice updates Stakeholder engagement (page 50)
+Section 172 statement (page 55)• Engagement with clients and broker partners
+• Engagement with regulators and regulatory correspondence and feedback
+• Reports from Investor Relations including shareholder engagement, ongoing shareholder 
+consultations, investor relations strategy, and share price performance
+Stakeholder engagement (page 50)
+Engagement in action: spotlight on the remuneration 
+policy (page 90) 
+Shareholder engagement and investor relations (page 87)
+• Major shareholders and share register analysis Shareholder engagement and investor relations (page 87)
+84 Beazley | Annual report 2022 www.beazley.com
+
+--------------------------------------------------------------------------------
+
+[Context 3]
+Chunk ID: c5fc5890205fe5326d690fc017f7153fb09924e4_pdf_chunk_16
+Source: c5fc5890205fe5326d690fc017f7153fb09924e4.pdf
+Doc Type: pdf
+Metadata: {'source': 'c5fc5890205fe5326d690fc017f7153fb09924e4.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+in future business areas and to pull back on some of our most respected classes of business if the rating environment is wrong. However, this mantra is key to our strategy of growing in a smart, sustainable way. Bob Quane Chief Underwriting Officer www.beazley.com Beazley | Annual report 2022 17 Performance by division Growth across all of our divisions, with two divisions growing in double digits. Growth of managed gross premiums written by division $m 18 Beazley | Annual report 2022 www.beazley.com www.beazley.com Beazley | Annual report 2022 19 Performance by division continued 20 Beazley | Annual report 2022 www.beazley.com
+
+Responsible Business
+Our vision is to be the highest performing sustainable specialist insurer.
+We will not achieve our goal without setting ourselves a 
+series of measurable and bold targets that incorporate 
+ESG thinking into every aspect of our business. We know 
+that we are on a journey and that it will take time to deliver 
+but we are committed to building better resilience for our 
+clients, staff, our local and global communities, the 
+environment and all our stakeholders.
+Our Responsible Business strategy is based around four 
+central pillars. These pillars are supported by nine key 
+areas across the organisation which are detailed within the 
+outer ring of our responsible business wheel, which is 
+designed to demonstrate the interconnected nature of our 
+approach to responsible business.
+We not only set metrics against which we can measure our 
+performance, these are regularly reviewed by our Executive 
+Committee and Board. Beazley’s Responsible Business 
+Steering Group is responsible for challenging the progress 
+and development of the strategy and providing support to 
+the business as it addresses ESG issues and climate 
+related risk. 
+On pages 29 to 49 you can read our disclosures made as 
+part of Task Force on Climate-Related Financial Disclosures 
+(TCFD), which will give you an in depth overview of how 
+Beazley is addressing the challenges of climate change. On 
+our Responsible Business and culture and values pages of 
+our website you will find detailed information and our key 
+policies and disclosures. In the following pages we have 
+set out our key responsible business metrics for 2022.
+Building a responsible culture
+We define our culture, through our brand and values which 
+inspire the way we work, from how we engage with our 
+stakeholders and colleagues, to how we design our 
+workspaces, treat our customers and behave as a 
+responsible business.
+We are proud of our culture, which is embodied by our 
+people. We attract and nurture curious people, that value 
+constructive challenge and a collaborative approach to 
+problem solving. We provide an environment where this 
+approach can thrive by creating an inclusive culture, true to 
+our values, to ensure our success now and for the future.
+Together our people and culture make it easy to do 
+business with Beazley.
+Inclusion and Diversity 
+Our culture and people strategy is underpinned by our 
+approach to inclusion and diversity, which is powered by 
+our 5 employee networks. These play an important role in 
+embedding our inclusion and diversity strategy, ensuring 
+that colleagues right across our company have clear 
+channels through which their voices can be heard.
+• Beazley Families – Our newest network supports parents-
+to-be and experienced parents on the parental journey in 
+the company
+• Beazley Proud – Our LGBTQ+ employee network 
+• Beazley RACE – Focused on raising awareness and 
+celebrating People of Colour
+• Beazley SHE – Our women’s network
+• Beazley Wellbeing – creates supportive content to help 
+break the stigma around talking about mental health. 
+www.beazley.com Beazley | Annual report 2022 21
+
+--------------------------------------------------------------------------------
+
+[Context 4]
+Chunk ID: c74139ce26a6f803725f5074a8a0f539abb99c09_pdf_chunk_0
+Source: c74139ce26a6f803725f5074a8a0f539abb99c09.pdf
+Doc Type: pdf
+Metadata: {'source': 'c74139ce26a6f803725f5074a8a0f539abb99c09.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+FROM OUR PAST INTO 
+THE COUNTRY’S FUTURE
+ANNUAL REPORT 
+2022
+
+FROM OUR PAST INTO 
+THE COUNTRY’S FUTURE
+ANNUAL REPORT 
+2022
+Translation from the Italian original which remains the definitive version.
+SCAN THE QR CODE
+AND WATCH THE VIDEO.
+
+4
+1
+INDEX
+GENERAL
+REPORT ON OPERATIONS
+AT 31 DECEMBER 2022
+1. Introduction 8
+2. Highlights 18
+3. Outlook 33
+4. Business Model 35
+5. Strategy 106
+6. Risks and opportunities 136
+7. Creation of Value 188
+8. Summary of the resolutions of the ordinary Shareholders’ Meeting 
+and other information 432
+9. Consolidated non-financial statement 451
+10. Glossary 481
+
+POSTE ITALIANE’S 
+FINANCIAL STATEMENTS
+REPORTS AND ATTESTATIONS
+AT 31 DECEMBER 2022
+488
+934
+2
+3
+1. Introduction 492
+2. Basis of preparation and significant accounting policies 494
+3. Material events during the year 533
+4. Poste Italiane Group Financial Statements at 31 December 2022 536
+5. Poste Italiane SpA Financial Statements at 31 December 2022 614
+6. Risk Management 702
+7. Fair value of financial instruments 745
+8. Hedging transactions 752
+9. Proceedings pending and principal relations with the Authorities 758
+10. Material non-recurring events and/or transactions 765
+11. Exceptional and/or unusual transactions 765
+12. Material events after the end of the reporting period 766
+13. Additional information 767
+14. BancoPosta RFC separate Report for the year ended at 31 December 2022 788
+
+Summary
+
+REPORT ON 
+OPERATIONS
+AT 31 DECEMBER 2022
+Summary
+
+1
+REPORT ON
+OPERATIONS
+AT 31 DECEMBER 2022
+Table of contents
+1. Introduction 8
+Statement fr
+om the Chairwoman and the Chief Executive Officer 8
+Pr
+esentation of the Integrated Report 14
+2. Highlights 18
+2.1
+Outcomes of the V
+alue Creation Process at Poste Italiane 19
+2.2
+Impact generated by Poste Italiane 20
+2.3
+Cr
+eating shared value to achieve the SDGs 26
+3. Outlook 33
+4. Business Model 35
+4.1
+Poste Italiane’
+s Ownership and Organisational Structure 35
+4.2
+Poste Italiane’
+s Business Model 40
+4.3
+Gr
+oup Structure 50
+4.4
+Omnichannel appr
+oach and group operating segments 59
+5. Strategy 106
+5.1
+Integrating sustainability within Poste Italiane’
+s strategy 106
+5.2
+Poste Italiane’s Sustainability Strategy 108
+5.3
+Poste Italiane’
+s Sustainability path 127
+Summary
+
+--------------------------------------------------------------------------------
+
+[Context 5]
+Chunk ID: 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_71
+Source: 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf
+Doc Type: pdf
+Metadata: {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2023', 'type': 'report'}
+Text:
+Inc (USA), and President of Henkel Ecolab, Teroson Gmbh, Henkel Adhesives (Germany), and Chairman of SAIM (France). Bruno is a Knight of the Legion d’Honneur (France). Key strengths Deep industrial knowledge, corporate transactions, extensive experience in driving and overseeing improved company performance. Committee key A Audit & Risk Committee R Remuneration Committee N Nominations Committee Chair of Committee I Independent Director 1. Independent on appointment. 2. Christian will not be seeking re-election at the 2023 AGM. CD&R is entitled to appoint a director to replace him. A R N NI 71SIG Annual Report and Accounts 2022 Strategic report Governance Financials
+
+Link to strategyLink to strategy
+− Regular updates and reviews 
+throughout the year to monitor the 
+Group’s financing position, medium-
+term plan and business plan.
+− Approving the exercise of the 
+accordion option in the Group’s RCF 
+to increase the size of the RCF to 
+maximise available liquidity.
+− Consideration of M&A opportunities 
+to ensure they advance the Group’s 
+strategy and are earnings enhancing.
+− Held a Board strategy day with 
+the ELT.
+− Received regular updates on the 
+measures being taken to mitigate any 
+increase in bad credit risk as a result 
+of economic downturn.
+Board activities
+Corporate governance report
+Board leadership and Company purpose
+21 3 4 5
+− Approved the 2023 budget and the 
+three-year financial projections.
+− Periodic review of the Group’s ability 
+to trade as a going concern 
+and viability.
+− Approved the 2021 full-year and 2022 
+interim results, and ensured work 
+was on schedule for the production of 
+the 2022 full-year Annual Report and 
+Accounts.
+− Approved the release of public 
+announcements in line with the 
+Disclosure and Transparency Rules, 
+UK Market Abuse Regulation and 
+other requirements. 
+− Received regular investor relations 
+reports as well as regular updates 
+from brokers on market conditions 
+and equity investor sentiment.
+− Received regular updates and reports 
+from the sustainability committee.
+− Appointed Investec to act as joint 
+broker alongside Peel Hunt.
+Strategy and financing Corporate reporting and 
+performance monitoring
+Our strategic pillars
+Responsible actions
+Valuable partnerships
+Specialist expertise
+Superior service
+Focused growth
+Highest productivity
+Winning branches
+72 SIG Annual Report and Accounts 2022

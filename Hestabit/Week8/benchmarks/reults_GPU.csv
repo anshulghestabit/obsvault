@@ -1,0 +1,4 @@
+model,engine,device,batch_size,tokens_per_sec,latency_sec,vram_mb,accuracy
+Base-FP16,transformers,CUDA,3,32.52,8.27,2601.86,0.744
+Fine-Tuned,transformers,CUDA,3,72.68,4.15,2602.86,0.853
+GGUF-Q8,llama.cpp,CPU,3,4.62,49.99,0,0.82

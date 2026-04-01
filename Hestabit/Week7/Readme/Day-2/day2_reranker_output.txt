@@ -1,0 +1,113 @@
+
+Query: annual report strategy
+==========================================================================================
+
+Final Result 1
+------------------------------------------------------------------------------------------
+Chunk ID      : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_105
+Source        : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf
+Method        : keyword
+Combined Score: 6.904832594274359
+Rerank Score  : 0.47026097774505615
+Metadata      : {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2023', 'type': 'policy'}
+Text:
+focus on modernisation, operational excellence and delivery, while remaining flexible to respond to the ever-changing economic climate and inflationary environment. Looking forward, the Committee remains focused on supporting the Group to achieve a significant improvement in performance and on continuing to operate with rigor and transparency. I hope you find this report clear and useful in explaining our approach to remuneration. If you have any questions on the policy or the report, please contact me through the Group General Counsel & Company Secretary. Kath Durrant Chair of the Remuneration Committee 7 March 2023 104 SIG Annual Report and Accounts 2022
+
+How do our incentive performance m
+... [truncated]
+
+Final Result 2
+------------------------------------------------------------------------------------------
+Chunk ID      : c5fc5890205fe5326d690fc017f7153fb09924e4_pdf_chunk_94
+Source        : c5fc5890205fe5326d690fc017f7153fb09924e4.pdf
+Method        : keyword
+Combined Score: 6.754966142963124
+Rerank Score  : 0.4577416479587555
+Metadata      : {'source': 'c5fc5890205fe5326d690fc017f7153fb09924e4.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+or stood down from The Board or Board Committee during the year only the number of meetings following appointment or before standing down are shown. Board discussions during the year At each scheduled meeting The Board receives reports from the Chief Executive Officer and Group Finance Director on the performance and results of the Group and also receives reports from the Chief Underwriting Officer and the Chief Risk Officer and the Chairs of Board Committees. In addition, The Board receives updates on operational matters, strategy and business planning, major projects and corporate governance. www.beazley.com Beazley | Annual report 2022 83
+
+Governance Framework
+continued
+There is an annual
+... [truncated]
+
+Final Result 3
+------------------------------------------------------------------------------------------
+Chunk ID      : c5fc5890205fe5326d690fc017f7153fb09924e4_pdf_chunk_16
+Source        : c5fc5890205fe5326d690fc017f7153fb09924e4.pdf
+Method        : keyword
+Combined Score: 6.668388759926205
+Rerank Score  : 0.4508897662162781
+Metadata      : {'source': 'c5fc5890205fe5326d690fc017f7153fb09924e4.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+in future business areas and to pull back on some of our most respected classes of business if the rating environment is wrong. However, this mantra is key to our strategy of growing in a smart, sustainable way. Bob Quane Chief Underwriting Officer www.beazley.com Beazley | Annual report 2022 17 Performance by division Growth across all of our divisions, with two divisions growing in double digits. Growth of managed gross premiums written by division $m 18 Beazley | Annual report 2022 www.beazley.com www.beazley.com Beazley | Annual report 2022 19 Performance by division continued 20 Beazley | Annual report 2022 www.beazley.com
+
+Responsible Business
+Our vision is to be the highest performing
+... [truncated]
+
+Final Result 4
+------------------------------------------------------------------------------------------
+Chunk ID      : c74139ce26a6f803725f5074a8a0f539abb99c09_pdf_chunk_0
+Source        : c74139ce26a6f803725f5074a8a0f539abb99c09.pdf
+Method        : keyword
+Combined Score: 6.726868317577059
+Rerank Score  : 0.3937543034553528
+Metadata      : {'source': 'c74139ce26a6f803725f5074a8a0f539abb99c09.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}
+Text:
+FROM OUR PAST INTO 
+THE COUNTRY’S FUTURE
+ANNUAL REPORT 
+2022
+
+FROM OUR PAST INTO 
+THE COUNTRY’S FUTURE
+ANNUAL REPORT 
+2022
+Translation from the Italian original which remains the definitive version.
+SCAN THE QR CODE
+AND WATCH THE VIDEO.
+
+4
+1
+INDEX
+GENERAL
+REPORT ON OPERATIONS
+AT 31 DECEMBER 2022
+1. Introduction 8
+2. Highlights 18
+3. Outlook 33
+4. Business Model 35
+5. Strategy 106
+6. Risks and opportunities 136
+7. Creation of Value 188
+8. Summary of the resolutions of the ordinary Shareholders’ Meeting 
+and other information 432
+9. Consolidated non-financial statement 451
+10. Glossary 481
+
+POSTE ITALIANE’S 
+FINANCIAL STATEMENTS
+REPORTS AND ATTESTATIONS
+AT 31 DECEMBER 2022
+488
+934
+2
+3
+1. Intro
+... [truncated]
+
+Final Result 5
+------------------------------------------------------------------------------------------
+Chunk ID      : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_71
+Source        : 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf
+Method        : keyword
+Combined Score: 6.874652867258782
+Rerank Score  : 0.44792667031288147
+Metadata      : {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2023', 'type': 'report'}
+Text:
+Inc (USA), and President of Henkel Ecolab, Teroson Gmbh, Henkel Adhesives (Germany), and Chairman of SAIM (France). Bruno is a Knight of the Legion d’Honneur (France). Key strengths Deep industrial knowledge, corporate transactions, extensive experience in driving and overseeing improved company performance. Committee key A Audit & Risk Committee R Remuneration Committee N Nominations Committee Chair of Committee I Independent Director 1. Independent on appointment. 2. Christian will not be seeking re-election at the 2023 AGM. CD&R is entitled to appoint a director to replace him. A R N NI 71SIG Annual Report and Accounts 2022 Strategic report Governance Financials
+
+Link to strategyLink to s
+... [truncated]
