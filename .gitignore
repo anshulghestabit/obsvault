@@ -17,6 +17,9 @@ __pycache__/
 # IDE
 .idea/
 .vscode/
+.obsidian/
+# Learning Notes
+LEARNING  NOTES/
 
 # Logs
 *.log

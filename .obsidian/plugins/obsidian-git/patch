@@ -1,7 +1,0 @@
-diff --git a/Hestabit/Week4/day-3/node_modules/.bin/nodemon b/Hestabit/Week4/day-3/node_modules/.bin/nodemon
-index 000000..000000 100644
---- a/Hestabit/Week4/day-3/node_modules/.bin/nodemon
-+++ b/Hestabit/Week4/day-3/node_modules/.bin/nodemon
-@@ -1,1 +1,0 @@
--../nodemon/bin/nodemon.js
-\ No newline at end of file
