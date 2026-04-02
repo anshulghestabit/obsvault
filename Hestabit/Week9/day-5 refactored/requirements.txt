@@ -1,9 +1,0 @@
-autogen-core
-autogen-ext[openai]
-openai
-python-dotenv
-faiss-cpu
-numpy
-pandas
-fastapi
-uvicorn[standard]
