@@ -14,7 +14,7 @@ MODEL_PATH = BASE_DIR / "models" / "best_tuned_model.pkl"
 EVAL_DIR = BASE_DIR / "evaluation"
 
 EVAL_DIR.mkdir(parents=True, exist_ok=True)
-
+v= 'Saved:'
 
 def load_data():
     df = pd.read_csv(DATA_PATH)
@@ -47,7 +47,7 @@ def save_feature_importance(model, feature_names):
     plt.savefig(EVAL_DIR / "feature_importance.png")
     plt.close()
 
-    print("Saved:", EVAL_DIR / "feature_importance.png")
+    print(v, EVAL_DIR / "feature_importance.png")
 
 
 def save_prediction_plots(y_test, preds):
@@ -61,7 +61,7 @@ def save_prediction_plots(y_test, preds):
     plt.savefig(EVAL_DIR / "actual_vs_predicted.png")
     plt.close()
 
-    print("Saved:", EVAL_DIR / "actual_vs_predicted.png")
+    print(v, EVAL_DIR / "actual_vs_predicted.png")
 
     # Residual plot
     residuals = y_test - preds
@@ -75,7 +75,7 @@ def save_prediction_plots(y_test, preds):
     plt.savefig(EVAL_DIR / "residual_plot.png")
     plt.close()
 
-    print("Saved:", EVAL_DIR / "residual_plot.png")
+    print(v, EVAL_DIR / "residual_plot.png")
 
 
 def try_shap(model, X_train):
@@ -115,7 +115,7 @@ def try_shap(model, X_train):
         plt.savefig(EVAL_DIR / "shap_summary.png", bbox_inches="tight")
         plt.close()
 
-        print("Saved:", EVAL_DIR / "shap_summary.png")
+        print(v, EVAL_DIR / "shap_summary.png")
 
     except Exception as e:
         print("SHAP analysis skipped due to error:", str(e))

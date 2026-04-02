@@ -173,4 +173,4 @@ def predict(input_data: HouseInput):
         }
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail="Internal Server Error")
