@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY package*.json ./
 COPY server.js ./
+USER node
 
 EXPOSE 3000
 
