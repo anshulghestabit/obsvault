@@ -1,5 +1,5 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 
 const inputPath = path.join(__dirname, "../frankenstein.txt");
 const outputPath = path.join(__dirname, "../corpus.txt");

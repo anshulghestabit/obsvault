@@ -1,5 +1,5 @@
-const http = require('http');
-const url = require('url');
+const http = require('node:http');
+const url = require('node:url');
 
 const server = http.createServer((req, res) => {
     const parsedUrl = url.parse(req.url, true);
@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify(req.headers));
     } else if (path === '/slow') {
-        const ms = parseInt(parsedUrl.query.ms) || 1000;
+        const ms = Number.parseInt(parsedUrl.query.ms) || 1000;
         setTimeout(() => {
             res.writeHead(200, { 'Content-Type': 'text/plain' });
             res.end(`Response delayed by ${ms}ms`);
