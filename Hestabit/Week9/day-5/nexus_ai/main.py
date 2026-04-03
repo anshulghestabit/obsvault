@@ -76,7 +76,7 @@ async def main() -> None:
     runtime.start()
 
     try:
-        user_query = input("\nEnter your NEXUS AI task: ").strip()
+        user_query = (await asyncio.to_thread(input, "\nEnter your NEXUS AI task: ")).strip()
         if not user_query:
             print("No task entered. Exiting.")
             return

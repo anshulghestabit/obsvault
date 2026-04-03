@@ -247,27 +247,32 @@ async def interactive_cli() -> None:
 
     try:
         while True:
-            user_query = input("You: ").strip()
+            user_query = (await asyncio.to_thread(input, "You: ")).strip()
 
             if not user_query:
                 continue
 
-            if user_query.lower() in {"/exit", "exit", "quit"}:
+            lowered = user_query.lower()
+
+            if lowered in {"/exit", "exit", "quit"}:
                 break
 
-            if user_query.lower() == "/session":
+            if lowered == "/session":
                 print("\nShort-term session memory:")
                 print(orchestrator.session_memory.render_for_prompt())
                 print()
                 continue
 
-            if user_query.lower() == "/facts":
+            if lowered == "/facts":
                 await orchestrator.print_recent_facts(limit=10)
                 print()
                 continue
 
-            answer = await orchestrator.ask(user_query)
-            print(f"\nAssistant: {answer}\n")
+            try:
+                answer = await orchestrator.ask(user_query)
+                print(f"\nAssistant: {answer}\n")
+            except Exception as e:
+                print(f"\nError while processing request: {e}\n")
 
     finally:
         await orchestrator.close()

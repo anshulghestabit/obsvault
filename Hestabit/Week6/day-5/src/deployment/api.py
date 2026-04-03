@@ -138,7 +138,7 @@ def log_prediction(request_id: str, payload: dict, prediction: float):
             )
         writer.writerow(
             [
-                datetime.utcnow().isoformat(),
+                datetime.datetime.utcnow().isoformat(),
                 request_id,
                 MODEL_VERSION,
                 round(prediction, 4),
