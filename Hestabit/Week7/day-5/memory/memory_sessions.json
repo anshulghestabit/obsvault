@@ -1,0 +1,30 @@
+{
+  "demo-session-1": [
+    {
+      "role": "assistant",
+      "content": "Answer for: annual report strategy\n\nBased on the retrieved context, the most relevant information comes from these sources:\n- 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf | chunk_id=2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_72 | score=0.7251423597335815\n- 2e315764be39701457b88c23f70c5ddede4b2453.pdf | chunk_id=2e315764be39701457b88c23f70c5ddede4b2453_pdf_chunk_43 | score=0.6993404626846313\n- c5fc5890205fe5326d690fc017f7153fb09924e4.pdf | chunk_id=c5fc5890205fe5326d690fc017f7153fb09924e4_pdf_chunk_94 | score=0.7070677280426025\n\nContext-backed summary:\n[Context 1]\nChunk ID: 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_72\nSource: 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf\nDoc Type: pdf\nMetadata: {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}\nText:\nfull-year Annual Report and Accounts. − Approved the release of public announcements in line with the Disclosure and Transparency Rules, UK Market Abuse Regulation and other requirements. − Received regular investor relations reports as well as regular updates from brokers on market conditions and equity investor sentiment. − Received regular updates and reports from the sustainability committee. − Appointed Investec to act as joint broker alongside Peel Hunt. Strategy and financing Corporate reporting and performance monitoring Our strategic pillars Responsible actions Valuable partnerships Specialist expertise Superior service Focused growth Highest productivity Winning branches 72 SIG Annual Report and Accounts 2022\n\nLink to strategy Link to strategy Link to strategy\n− Considered the Group’s key \nstakeholders.\n− Group-wide customer surveys \nundertaken and results reported \nto the Board.\n− Third annual employee en"
+    },
+    {
+      "role": "user",
+      "content": "annual report strategy"
+    },
+    {
+      "role": "assistant",
+      "content": "Answer for: annual report strategy\n\nBased on the retrieved context, the most relevant information comes from these sources:\n- 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf | chunk_id=2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_72 | score=0.7251423597335815\n- 2e315764be39701457b88c23f70c5ddede4b2453.pdf | chunk_id=2e315764be39701457b88c23f70c5ddede4b2453_pdf_chunk_43 | score=0.6993404626846313\n- c5fc5890205fe5326d690fc017f7153fb09924e4.pdf | chunk_id=c5fc5890205fe5326d690fc017f7153fb09924e4_pdf_chunk_94 | score=0.7070677280426025\n\nContext-backed summary:\n[Context 1]\nChunk ID: 2db41ba86cc015db1f5f7de00b764a06e6de3dcc_pdf_chunk_72\nSource: 2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf\nDoc Type: pdf\nMetadata: {'source': '2db41ba86cc015db1f5f7de00b764a06e6de3dcc.pdf', 'doc_type': 'pdf', 'year': '2022', 'type': 'report'}\nText:\nfull-year Annual Report and Accounts. − Approved the release of public announcements in line with the Disclosure and Transparency Rules, UK Market Abuse Regulation and other requirements. − Received regular investor relations reports as well as regular updates from brokers on market conditions and equity investor sentiment. − Received regular updates and reports from the sustainability committee. − Appointed Investec to act as joint broker alongside Peel Hunt. Strategy and financing Corporate reporting and performance monitoring Our strategic pillars Responsible actions Valuable partnerships Specialist expertise Superior service Focused growth Highest productivity Winning branches 72 SIG Annual Report and Accounts 2022\n\nLink to strategy Link to strategy Link to strategy\n− Considered the Group’s key \nstakeholders.\n− Group-wide customer surveys \nundertaken and results reported \nto the Board.\n− Third annual employee en"
+    },
+    {
+      "role": "user",
+      "content": "update  for the casual leaves in hestabit on financial year 2026 "
+    },
+    {
+      "role": "assistant",
+      "content": "Answer for: update  for the casual leaves in hestabit on financial year 2026 \n\nBased on the retrieved context, the most relevant information comes from these sources:\n- ded965ce7e3ea0ad9b83272b8c36f529793a2887.md | chunk_id=ded965ce7e3ea0ad9b83272b8c36f529793a2887_md_chunk_353 | score=0.6428401470184326\n- ecabab4934d4b80570c4bb3b8e35b7476694b3fb.md | chunk_id=ecabab4934d4b80570c4bb3b8e35b7476694b3fb_md_chunk_141 | score=0.6415101885795593\n- 6d76ccb75bbf1b27ca60b8419c5343ac050cebb0.pdf | chunk_id=6d76ccb75bbf1b27ca60b8419c5343ac050cebb0_pdf_chunk_26 | score=0.5955582857131958\n\nContext-backed summary:\n[Context 1]\nChunk ID: ded965ce7e3ea0ad9b83272b8c36f529793a2887_md_chunk_353\nSource: ded965ce7e3ea0ad9b83272b8c36f529793a2887.md\nDoc Type: markdown\nMetadata: {'source': 'ded965ce7e3ea0ad9b83272b8c36f529793a2887.md', 'doc_type': 'markdown', 'year': '2022', 'type': 'financial'}\nText:\n– Assets held for sale | | 2022<br>€'m | 2021<br>€'m | |----------------------------------|-------------|-------------| | Assets | | | | A. Property, plant and equipment | 19.6 | 20.0 | | B. Casual CGU | — | — | | C. Financials CGU | — | 487.4 | | D. Investment in associates | — | — | | | 19.6 | 507.4 | ## A. During 2021, the Group entered into a binding agreement for the disposal of a real estate area in Milan for a total consideration of €20.0 million. Accordingly, the real estate was classified as held for sale.\n\nOf the total consideration, €1.0 million was received during the year ended 31 December 2021. The advance received was classified as part of the liabilities directly associated with assets classified as held for sale.\n\nAt the date of the transfer to assets held for sale, an impairment review was performed, where the carrying amount was compared to the fair value less expected disposal costs. T"
+    }
+  ],
+  "demo-session-3": [
+    {
+      "role": "user",
+      "content": "diagram"
+    }
+  ]
+}
